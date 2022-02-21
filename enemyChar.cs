@@ -81,27 +81,27 @@ public class EnemyChar
 		charBehavior = Math.Abs( behaviorVal );
 		}
 
-	public int etHealth()
+	public int GetHealth()
 		{
 		return healthPoints;
 		}
 
-	public int getStamina()
+	public int GetStamina()
 		{
 		return stamina;
 		}
 
-	public int getMovementSpeed()
+	public int GetMovementSpeed()
 	{
 		return movementSpeed;
 		}
 
-	public int getAttackDamage()
+	public int GetAttackDamage()
 		{
 		return attackDamage;
 		}
 
-	public int getCharBehavior()
+	public int GetCharBehavior()
 		{
 		return charBehavior;
 		}
