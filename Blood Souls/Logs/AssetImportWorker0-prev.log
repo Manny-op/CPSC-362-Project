@@ -15,11 +15,11 @@ C:/Users/emman/Desktop/362 Game/CPSC-362-Project/Blood Souls
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50274
+50353
 Successfully changed project path to: C:/Users/emman/Desktop/362 Game/CPSC-362-Project/Blood Souls
 C:/Users/emman/Desktop/362 Game/CPSC-362-Project/Blood Souls
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 100.89 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 88.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,55 +35,151 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005243 seconds.
+Registered in 0.005115 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.26 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 88.29 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.593 seconds
+- Completed reload, in  2.687 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002264 seconds.
+Registered in 0.001981 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 82.73 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 82.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.314 seconds
+- Completed reload, in  2.299 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
 Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.5 MB.
+System memory in use before: 84.6 MB.
 System memory in use after: 84.5 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2248.
-Total: 4.366000 ms (FindLiveObjects: 0.433800 ms CreateObjectMapping: 0.152200 ms MarkObjects: 3.471800 ms  DeleteObjects: 0.306300 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2249.
+Total: 4.038600 ms (FindLiveObjects: 0.331700 ms CreateObjectMapping: 0.143300 ms MarkObjects: 3.324500 ms  DeleteObjects: 0.236700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Manny_UI
-  artifactKey: Guid(744920cedb6f4a74eab41235102e5a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Manny_UI using Guid(744920cedb6f4a74eab41235102e5a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95902b04e7730da3b7a1c858eb8575c') in 0.028253 seconds
-  Import took 0.034584 seconds .
+  path: Assets/Manny_UI/UI Scripts
+  artifactKey: Guid(fadc720ec8c21914d99e7e0785637d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manny_UI/UI Scripts using Guid(fadc720ec8c21914d99e7e0785637d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81dac7a208153239fbed73d9c55e7f0f') in 0.019704 seconds
+  Import took 0.025998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.432526 seconds.
+  path: Assets/Manny_UI/UI Scripts/HealthBarScript.cs
+  artifactKey: Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manny_UI/UI Scripts/HealthBarScript.cs using Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568dcacfecc146a997af577a239ca0a2') in 0.062536 seconds
+  Import took 0.068584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.852886 seconds.
+  path: Assets/Manny_UI/UI Scripts/HealthBarScript.cs
+  artifactKey: Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manny_UI/UI Scripts/HealthBarScript.cs using Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1fc5d96670d867ac4e7b1bc712a5c9') in 0.006119 seconds
+  Import took 0.011176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.492245 seconds.
+  path: Assets/Manny_UI/UI Scripts/HealthBarScript.cs
+  artifactKey: Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manny_UI/UI Scripts/HealthBarScript.cs using Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f2d69b2dc524a5660b10c58aa80cc6') in 0.004673 seconds
+  Import took 0.009815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.783117 seconds.
+  path: Assets/Manny_UI/UI Scripts/HealthBarScript.cs
+  artifactKey: Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manny_UI/UI Scripts/HealthBarScript.cs using Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7492bf87a406d97d016b6ddd356d12dc') in 0.006887 seconds
+  Import took 0.012711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002165 seconds.
+  path: Assets/Manny_UI/UI Scripts/HealthBarScript.cs
+  artifactKey: Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manny_UI/UI Scripts/HealthBarScript.cs using Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7492bf87a406d97d016b6ddd356d12dc') in 0.004490 seconds
+  Import took 0.009563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.373919 seconds.
+  path: Assets/Manny_UI/UI Scripts/HealthBarScript.cs
+  artifactKey: Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manny_UI/UI Scripts/HealthBarScript.cs using Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da17bdd5badb6905fe02377714352c7f') in 0.035862 seconds
+  Import took 0.060671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.420629 seconds.
+  path: Assets/Manny_UI/UI Scripts/HealthBarScript.cs
+  artifactKey: Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manny_UI/UI Scripts/HealthBarScript.cs using Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fbe3f2d406b68a3e06f04da7220218') in 0.005970 seconds
+  Import took 0.011360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.571804 seconds.
+  path: Assets/Manny_UI/UI Scripts/HealthBarScript.cs
+  artifactKey: Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manny_UI/UI Scripts/HealthBarScript.cs using Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3c416f8cff65548cf1a510bd4b88fa') in 0.006178 seconds
+  Import took 0.013233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.384593 seconds.
+  path: Assets/Manny_UI/UI Scripts/HealthBarScript.cs
+  artifactKey: Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manny_UI/UI Scripts/HealthBarScript.cs using Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8192980ab545f34f573e1791f6013d77') in 0.006455 seconds
+  Import took 0.012619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000646 seconds.
+  path: Assets/Manny_UI/UI Scripts/HealthBarScript.cs
+  artifactKey: Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manny_UI/UI Scripts/HealthBarScript.cs using Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8192980ab545f34f573e1791f6013d77') in 0.005066 seconds
+  Import took 0.009759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.049845 seconds.
+  path: Assets/Manny_UI/UI Scripts/HealthBarScript.cs
+  artifactKey: Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manny_UI/UI Scripts/HealthBarScript.cs using Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c93fc17d0533367bdb5a98dfd899a14') in 0.005789 seconds
+  Import took 0.010448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.389426 seconds.
+  path: Assets/Manny_UI/UI Scripts/HealthBarScript.cs
+  artifactKey: Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manny_UI/UI Scripts/HealthBarScript.cs using Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a23dd143794bc04816fb821acdf085') in 0.008322 seconds
+  Import took 0.014002 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002226 seconds.
+Registered in 0.002012 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
@@ -92,15 +188,77 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.188 seconds
+- Completed reload, in  2.022 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.5 MB.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
 System memory in use after: 84.5 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2252.
-Total: 4.205800 ms (FindLiveObjects: 0.276100 ms CreateObjectMapping: 0.156000 ms MarkObjects: 3.565500 ms  DeleteObjects: 0.206100 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2254.
+Total: 4.902700 ms (FindLiveObjects: 0.504800 ms CreateObjectMapping: 0.278200 ms MarkObjects: 3.822400 ms  DeleteObjects: 0.294200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.996 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2258.
+Total: 3.479900 ms (FindLiveObjects: 0.439300 ms CreateObjectMapping: 0.175800 ms MarkObjects: 2.734400 ms  DeleteObjects: 0.128800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.961076 seconds.
+  path: Assets/Manny_UI/UI Scripts/HealthBarScript.cs
+  artifactKey: Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manny_UI/UI Scripts/HealthBarScript.cs using Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49460d1a3bc6318968bd10ee18688a80') in 0.014197 seconds
+  Import took 0.023387 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001340 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.440 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2262.
+Total: 3.693500 ms (FindLiveObjects: 0.255300 ms CreateObjectMapping: 0.201200 ms MarkObjects: 3.074500 ms  DeleteObjects: 0.161100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.986881 seconds.
+  path: Assets/Manny_UI/UI Scripts/HealthBarScript.cs
+  artifactKey: Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Manny_UI/UI Scripts/HealthBarScript.cs using Guid(9d36c58e22ec974499e550689a4cf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fd47e96516d5c33fd896f5f203bda6') in 0.008545 seconds
+  Import took 0.013009 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
