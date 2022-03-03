@@ -10,9 +10,11 @@
  */
 
 using System;  // Seems essential for now, like using namespace std
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-
-public class EnemyChar
+public class EnemyChar : MonoBehaviour
 {
 	private int healthPoints;
 	private int stamina;
