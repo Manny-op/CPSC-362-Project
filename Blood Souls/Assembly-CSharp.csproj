@@ -53,9 +53,6 @@
     <UnityVersion>2020.3.1f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Imported Assets\Free Asset - 2D Handcrafted Art\Scripts\CamerController.cs" />
     <Compile Include="Assets\Manny_UI\UI Scripts\HealthBarScript.cs" />
     <Compile Include="Assets\Scripts\CharacterScript\CharacterController2D.cs" />
@@ -65,6 +62,7 @@
     <Compile Include="Assets\Scripts\CharacterScript\PlayerMovement.cs" />
     <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\Sensor_Prototype.cs" />
     <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\AudioManager_PrototypeHero.cs" />
+    <Compile Include="Assets\Programming_Manny\scr_melee_Enem.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Imported Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
