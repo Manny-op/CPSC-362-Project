@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
-
+    public HealthBarScript Stats;
     public Animator animator;
     public Transform attackPoint;
     public float attackRange = 0.5f;
@@ -13,17 +13,29 @@ public class PlayerCombat : MonoBehaviour
     private float nextAttackTime = 0f;
     public int attackDamage = 40;
 
-    public float playerStamina = 50f;
+    public float playerHealth;
+    
+    public float maxHealth = 100;
+    public float playerStamina;
+
+    public float maxStamina = 100;
+
+    void Awake()
+    {
+        playerHealth = maxHealth;
+        playerStamina = maxStamina;
+    }
 
     void Update()
     {
-        if(Time.time >= nextAttackTime)
+        if(Time.time >= nextAttackTime && playerStamina > 0)
         {
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 Attack();
                 nextAttackTime = Time.time + 1f / attackRate;
-            }    
+                Stats.StaminaUse(10);
+            }
         }
     }
 
@@ -40,4 +52,5 @@ public class PlayerCombat : MonoBehaviour
             Debug.Log("We hit " + enemy.name);
         }
     }
+
 }
