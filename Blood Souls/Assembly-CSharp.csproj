@@ -63,6 +63,8 @@
     <Compile Include="Assets\Scripts\CharacterScript\PlayerMovement.cs" />
     <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\Sensor_Prototype.cs" />
     <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\AudioManager_PrototypeHero.cs" />
+    <Compile Include="Assets\Programming_Manny\scr_ranged_enemy.cs" />
+    <Compile Include="Assets\Programming_Manny\scr_projectile.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Imported Assets\BayatGames\Free Platform Game Assets\Readme.txt" />

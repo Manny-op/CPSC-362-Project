@@ -43,7 +43,11 @@ public class scr_melee_Enem : MonoBehaviour
     // using fixed update as it will sync better compared to regular update
     private void FixedUpdate()
     {
-        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, movementSpeed * Time.deltaTime);
+        if (Vector2.Distance(player.transform.position, transform.position) >= 2f)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, movementSpeed * Time.deltaTime);
+
+        }
     }
 
     //Create functions for taking damage, will use both melee and ranged for now and create a way to 
