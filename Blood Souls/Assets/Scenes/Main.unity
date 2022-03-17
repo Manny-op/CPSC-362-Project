@@ -1155,7 +1155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 519420028}
-  parallaxEffect: 0.7
+  parallaxEffect: 0.8
 --- !u!4 &117370005 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 497438, guid: 411bc9616f611ce49a9df7a02d549cfd, type: 3}
@@ -3707,7 +3707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 519420028}
-  parallaxEffect: 0.7
+  parallaxEffect: 0.8
 --- !u!1001 &403190365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4116,7 +4116,7 @@ MonoBehaviour:
   Stats: {fileID: 992991340}
   animator: {fileID: 420982075}
   attackPoint: {fileID: 1831418248}
-  attackRange: 0.43
+  attackRange: 0.5
   enemyLayers:
     serializedVersion: 2
     m_Bits: 64
@@ -5219,7 +5219,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.15249157, y: -1.728, z: -10}
+  m_LocalPosition: {x: -11.391674, y: -1.3100002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5487,7 +5487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 519420028}
-  parallaxEffect: 0.7
+  parallaxEffect: 0.8
 --- !u!1001 &542947502
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11648,11 +11648,11 @@ MonoBehaviour:
   m_YDamping: 1
   m_ZDamping: 1
   m_TargetMovementOnly: 1
-  m_ScreenX: 0.35
-  m_ScreenY: 0.472
+  m_ScreenX: 0.40000004
+  m_ScreenY: 0.65
   m_CameraDistance: 10
-  m_DeadZoneWidth: 0.23
-  m_DeadZoneHeight: 0.38
+  m_DeadZoneWidth: 0.18
+  m_DeadZoneHeight: 0.51
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 0.8
@@ -13169,7 +13169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 519420028}
-  parallaxEffect: 0.7
+  parallaxEffect: 0.8
 --- !u!1 &778816330
 GameObject:
   m_ObjectHideFlags: 0
@@ -15315,11 +15315,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4805181885227780, guid: 2e2183501755a214591e802f3aff33d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.67
+      value: 1.98
       objectReference: {fileID: 0}
     - target: {fileID: 4805181885227780, guid: 2e2183501755a214591e802f3aff33d2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.22
+      value: -3.14
       objectReference: {fileID: 0}
     - target: {fileID: 4805181885227780, guid: 2e2183501755a214591e802f3aff33d2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15456,7 +15456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 519420028}
-  parallaxEffect: 0.7
+  parallaxEffect: 0.8
 --- !u!1 &969878549
 GameObject:
   m_ObjectHideFlags: 0
@@ -19503,7 +19503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 519420028}
-  parallaxEffect: 0.7
+  parallaxEffect: 0.8
 --- !u!1 &1385550508
 GameObject:
   m_ObjectHideFlags: 0
@@ -20858,11 +20858,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3421812284450364523, guid: 6ab81f9047944454c86d2fb3e0e1eddc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.4
+      value: -13.76
       objectReference: {fileID: 0}
     - target: {fileID: 3421812284450364523, guid: 6ab81f9047944454c86d2fb3e0e1eddc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.42
+      value: -2.96
       objectReference: {fileID: 0}
     - target: {fileID: 3421812284450364523, guid: 6ab81f9047944454c86d2fb3e0e1eddc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25834,7 +25834,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050362135}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.15249157, y: -1.728, z: -10}
+  m_LocalPosition: {x: -11.391674, y: -1.3100002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 654233306}
@@ -26561,7 +26561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 519420028}
-  parallaxEffect: 0.7
+  parallaxEffect: 0.8
 --- !u!1 &2139654563
 GameObject:
   m_ObjectHideFlags: 0
