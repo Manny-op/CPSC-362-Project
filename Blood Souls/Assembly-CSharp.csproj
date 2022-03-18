@@ -36,10 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Programming_Manny\scr_ranged_enemy.cs" />
      <Compile Include="Assets\Imported Assets\Bandits - Pixel Art\Demo\Bandit.cs" />
      <Compile Include="Assets\Scripts\ParallaxScrolling.cs" />
+     <Compile Include="Assets\Programming_Manny\scr_projectile.cs" />
      <Compile Include="Assets\Imported Assets\Free Asset - 2D Handcrafted Art\Scripts\CamerController.cs" />
      <Compile Include="Assets\Manny_UI\UI Scripts\HealthBarScript.cs" />
+     <Compile Include="Assets\Programming_Manny\scr_melee_Enem.cs" />
      <Compile Include="Assets\Imported Assets\Bandits - Pixel Art\Demo\Sensor_Bandit.cs" />
      <Compile Include="Assets\Scripts\CharacterScript\CharacterController2D.cs" />
      <Compile Include="Assets\enemyChar.cs" />
@@ -50,9 +53,6 @@
      <Compile Include="Assets\Scripts\CharacterScript\PlayerMovement.cs" />
      <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\Sensor_Prototype.cs" />
      <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\AudioManager_PrototypeHero.cs" />
-     <Compile Include="Assets\Programming_Manny\scr_projectile.cs" />
-     <Compile Include="Assets\Programming_Manny\scr_melee_Enem.cs" />
-     <Compile Include="Assets\Programming_Manny\scr_ranged_enemy.cs" />
      <None Include="Assets\Imported Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
      <None Include="Assets\Imported Assets\Free Asset - 2D Handcrafted Art\Shader\NormalMappedSprite-Animated.shader" />
      <None Include="Assets\Imported Assets\Free Asset - 2D Handcrafted Art\Readme.txt" />
@@ -625,97 +625,97 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>N:/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+        <HintPath>N:/CPSC-362/CPSC-362-Project/Blood Souls/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
