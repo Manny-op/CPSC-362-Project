@@ -1,29 +1,25 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream:Blood Souls/Assets/Chanel Sprites_Scenes/Skeleton Sheet.png.meta
-guid: eab79c133f883204291ddaf876e5846b
-=======
-guid: 1c2da6e0727b43248b17f7196929cddc
->>>>>>> Stashed changes:Blood Souls/Chanel Sprites_Scenes/M_Idle.psd.meta
+guid: 1c0e75ca711c0de49be6698eb4c88e12
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8961600037738567351
-    second: Skeleton Sheet_0
+      213: -4777769228464193694
+    second: Hero_Walk_0
   - first:
-      213: 108030895059205365
-    second: Skeleton Sheet_1
+      213: -8354836616373275366
+    second: Hero_Walk_1
   - first:
-      213: 2824560972275790960
-    second: Skeleton Sheet_2
+      213: 4194473889573187128
+    second: Hero_Walk_2
   - first:
-      213: -8263958302036415422
-    second: Skeleton Sheet_3
+      213: 9070338713820004469
+    second: Hero_Walk_3
   - first:
-      213: 4598275380929699807
-    second: Skeleton Sheet_4
+      213: -4616963202828180853
+    second: Hero_Walk_4
   - first:
-      213: -7038427124886391884
-    second: Skeleton Sheet_5
+      213: 4486960060532156569
+    second: Hero_Walk_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -54,9 +50,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -113,34 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Skeleton Sheet_0
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 0
-        width: 27
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 949277b0f3002a380800000000000000
-      internalID: -8961600037738567351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleton Sheet_1
+      name: Hero_Walk_0
       rect:
         serializedVersion: 2
         x: 36
-        y: 0
-        width: 25
-        height: 32
+        y: 2
+        width: 42
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +123,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fc75c4d68dcf7100800000000000000
-      internalID: 108030895059205365
+      spriteID: 26f799e4334f1bdb0800000000000000
+      internalID: -4777769228464193694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton Sheet_2
+      name: Hero_Walk_1
       rect:
         serializedVersion: 2
-        x: 67
-        y: 0
-        width: 27
-        height: 32
+        x: 80
+        y: 2
+        width: 45
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0743ee63d3bd23720800000000000000
-      internalID: 2824560972275790960
+      spriteID: a15f4acfc58ad0c80800000000000000
+      internalID: -8354836616373275366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton Sheet_3
+      name: Hero_Walk_2
       rect:
         serializedVersion: 2
-        x: 99
-        y: 0
-        width: 27
-        height: 32
+        x: 126
+        y: 3
+        width: 37
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24caa7865b5805d80800000000000000
-      internalID: -8263958302036415422
+      spriteID: 83e29af77c3c53a30800000000000000
+      internalID: 4194473889573187128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton Sheet_4
+      name: Hero_Walk_3
       rect:
         serializedVersion: 2
-        x: 132
-        y: 0
-        width: 25
-        height: 32
+        x: 165
+        y: 2
+        width: 42
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdf1db3a81b50df30800000000000000
-      internalID: 4598275380929699807
+      spriteID: 57007b5e00150ed70800000000000000
+      internalID: 9070338713820004469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton Sheet_5
+      name: Hero_Walk_4
       rect:
         serializedVersion: 2
-        x: 164
-        y: 0
-        width: 26
-        height: 32
+        x: 209
+        y: 2
+        width: 45
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,8 +207,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b33ca332db725e90800000000000000
-      internalID: -7038427124886391884
+      spriteID: b826062cd604defb0800000000000000
+      internalID: -4616963202828180853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 3
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9986261f662e44e30800000000000000
+      internalID: 4486960060532156569
       vertices: []
       indices: 
       edges: []
@@ -250,7 +246,7 @@ TextureImporter:
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
+  pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 

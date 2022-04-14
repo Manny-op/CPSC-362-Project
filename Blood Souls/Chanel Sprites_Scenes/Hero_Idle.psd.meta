@@ -1,29 +1,25 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream:Blood Souls/Assets/Chanel Sprites_Scenes/Skeleton Sheet.png.meta
-guid: eab79c133f883204291ddaf876e5846b
-=======
-guid: 1c2da6e0727b43248b17f7196929cddc
->>>>>>> Stashed changes:Blood Souls/Chanel Sprites_Scenes/M_Idle.psd.meta
+guid: 04c4d5dddc03601449311ef7587df3d0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8961600037738567351
-    second: Skeleton Sheet_0
+      213: -1071302430762533504
+    second: Hero_Idle_0
   - first:
-      213: 108030895059205365
-    second: Skeleton Sheet_1
+      213: 402119133011603176
+    second: Hero_Idle_1
   - first:
-      213: 2824560972275790960
-    second: Skeleton Sheet_2
+      213: -6775569785050890376
+    second: Hero_Idle_2
   - first:
-      213: -8263958302036415422
-    second: Skeleton Sheet_3
+      213: 6171034423421409230
+    second: Hero_Idle_3
   - first:
-      213: 4598275380929699807
-    second: Skeleton Sheet_4
+      213: -5679837781724353491
+    second: Hero_Idle_4
   - first:
-      213: -7038427124886391884
-    second: Skeleton Sheet_5
+      213: 3547810620227762238
+    second: Hero_Idle_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -54,9 +50,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -113,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Skeleton Sheet_0
+      name: Hero_Idle_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 27
-        height: 32
+        x: 3
+        y: 2
+        width: 32
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +123,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 949277b0f3002a380800000000000000
-      internalID: -8961600037738567351
+      spriteID: 08df26f7d18f121f0800000000000000
+      internalID: -1071302430762533504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton Sheet_1
+      name: Hero_Idle_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 0
-        width: 25
-        height: 32
+        x: 41
+        y: 2
+        width: 32
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fc75c4d68dcf7100800000000000000
-      internalID: 108030895059205365
+      spriteID: 8ee6b80983d949500800000000000000
+      internalID: 402119133011603176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton Sheet_2
+      name: Hero_Idle_2
       rect:
         serializedVersion: 2
-        x: 67
-        y: 0
-        width: 27
-        height: 32
+        x: 79
+        y: 2
+        width: 32
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0743ee63d3bd23720800000000000000
-      internalID: 2824560972275790960
+      spriteID: 87ffb23dd2758f1a0800000000000000
+      internalID: -6775569785050890376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton Sheet_3
+      name: Hero_Idle_3
       rect:
         serializedVersion: 2
-        x: 99
-        y: 0
-        width: 27
-        height: 32
+        x: 117
+        y: 2
+        width: 32
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24caa7865b5805d80800000000000000
-      internalID: -8263958302036415422
+      spriteID: ec79db0dc1be3a550800000000000000
+      internalID: 6171034423421409230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton Sheet_4
+      name: Hero_Idle_4
       rect:
         serializedVersion: 2
-        x: 132
-        y: 0
-        width: 25
-        height: 32
+        x: 155
+        y: 2
+        width: 32
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,20 +207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdf1db3a81b50df30800000000000000
-      internalID: 4598275380929699807
+      spriteID: d2c2a7e61a92d21b0800000000000000
+      internalID: -5679837781724353491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton Sheet_5
+      name: Hero_Idle_5
       rect:
         serializedVersion: 2
-        x: 164
-        y: 0
-        width: 26
-        height: 32
+        x: 193
+        y: 2
+        width: 32
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,8 +228,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b33ca332db725e90800000000000000
-      internalID: -7038427124886391884
+      spriteID: e38b80546fa5c3130800000000000000
+      internalID: 3547810620227762238
       vertices: []
       indices: 
       edges: []
@@ -250,7 +246,7 @@ TextureImporter:
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
+  pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 
