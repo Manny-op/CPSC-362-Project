@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637831582519411099
+      ticks: 637855315341069743
     m_Hash: 3122462563
   m_LockFileStatus:
     m_FilePath: N:/CPSC-362/CPSC-362-Project/Blood Souls/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637831584744270872
+      ticks: 637855315613275749
     m_Hash: 4134975945
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
