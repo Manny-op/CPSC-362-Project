@@ -17,7 +17,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Obstacles : MonoBehavior
+public class Obstacles : MonoBehaviour
 {
 	// Private data fields
 	private const int DAMAGE_DEALT = 5;
