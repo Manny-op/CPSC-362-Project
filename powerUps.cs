@@ -18,7 +18,7 @@ using UnityEngine;
 
 
 // Seems like everything inherits from MonoBehavior to some degree
-public class PowerUps : MonoBehavior
+public class PowerUps : MonoBehaviour
 {
 	// Private data fields
 	private const int HEALTH_BOOST = 5;
