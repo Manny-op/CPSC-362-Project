@@ -5,6 +5,7 @@ using UnityEngine;
 public class scr_melee_Enem : MonoBehaviour
 {
     private GameObject player;
+    public GameObject attackBox;
 
     [SerializeField]
     private int healthPoints;
@@ -71,5 +72,9 @@ public class scr_melee_Enem : MonoBehaviour
         }
     }
 
+    void Attack()
+    {
+        GameObject hitBox = Instantiate(attackBox);
+    }
 
 }
