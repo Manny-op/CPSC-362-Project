@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
+    public static PlayerCombat instance;
     public HealthBarScript Stats;
     public Animator animator;
     public Transform attackPoint;
@@ -20,31 +21,41 @@ public class PlayerCombat : MonoBehaviour
 
     public float maxStamina = 100;
 
+    public bool canReceiveInput;
+    public bool InputReceived;
+
     void Awake()
     {
+        instance = this;
         playerHealth = maxHealth;
         playerStamina = maxStamina;
     }
 
     void Update()
     {
-        if(Time.time >= nextAttackTime && playerStamina > 0)
-        {
-            if (Input.GetKeyDown(KeyCode.Mouse0))
-            {
-                Attack();
-                nextAttackTime = Time.time + 1f / attackRate;
-                Stats.StaminaUse(10);
-            }
-        }
+        Attack();
     }
 
-    void Attack()
+    public void Attack()
     {
-        animator.SetTrigger("Attack");
+        if (Input.GetButtonDown("Fire1") && playerStamina > 0)
+        {
+            if (canReceiveInput)
+            {
+                InputReceived = true;
+                canReceiveInput = false;
+            }
+            else
+            {
+                return;
+            }
+        }
 
+    }
+
+    public void dealDamage()
+    {
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-
 
         foreach(Collider2D enemy in hitEnemies)
         {
@@ -53,4 +64,14 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
+    public void InputManager()
+    {
+        if (!canReceiveInput)
+        {
+            canReceiveInput = true;
+        }
+        else{
+            canReceiveInput = false;
+        }
+    }
 }

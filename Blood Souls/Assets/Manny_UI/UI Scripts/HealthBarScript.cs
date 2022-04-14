@@ -7,7 +7,7 @@ public class HealthBarScript : MonoBehaviour
     public static HealthBarScript instance;
 
     private Coroutine regen;
-    private WaitForSeconds regenTick = new WaitForSeconds(0.1f);
+    private WaitForSeconds regenTick = new WaitForSeconds(0.01f);
     public PlayerCombat player;
     private float maxHealth;
     private float maxStamina;
