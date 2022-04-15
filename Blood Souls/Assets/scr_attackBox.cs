@@ -17,7 +17,7 @@ public class scr_attackBox : MonoBehaviour
     {
         if (timer <= 0f)
         {
-            Destroy(gameObject);
+            Destroy(this.gameObject);
         }
         else
         {
