@@ -4129,7 +4129,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   attackRate: 2
-  attackDamage: 40
+  attackDamage: 10
   playerHealth: 0
   maxHealth: 100
   playerStamina: 0
