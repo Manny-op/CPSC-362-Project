@@ -10,9 +10,14 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     bool jump = false;
 
+    bool crouch = false;
+
     public float dashDistance = 15f;
+    public float rollDist = 10f;
     bool isDashing;
+    bool isRolling;
     bool dashOnce = true;
+    bool RollOnce = true;
     float doubleTapTime;
     KeyCode lastKeyCode;
     private Rigidbody2D m_Rigidbody2D;
@@ -31,10 +36,17 @@ public class PlayerMovement : MonoBehaviour
             jump = true;
             animator.SetBool("isJumping", true);
         }
+        if (Input.GetKeyDown(KeyCode.S) )
+        {
+            crouch = true;
+        }
+        else if (Input.GetKeyUp(KeyCode.S))
+        {
+            crouch = false;
+        }
         if (dashOnce){
-
         //dash left
-            if (Input.GetKeyDown(KeyCode.A) && (Input.GetAxisRaw("Horizontal") < 0 ))
+            if (Input.GetKeyDown(KeyCode.A) && (Input.GetAxisRaw("Horizontal") < 0 ) && !crouch)
             {
                 if (doubleTapTime > Time.time && lastKeyCode == KeyCode.A)
                 {
@@ -51,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
                 lastKeyCode = KeyCode.A;
             }
             //dash right
-            if (Input.GetKeyDown(KeyCode.D) && (Input.GetAxisRaw("Horizontal") > 0 ))
+            if (Input.GetKeyDown(KeyCode.D) && (Input.GetAxisRaw("Horizontal") > 0 ) && !crouch)
             {
                 if (doubleTapTime > Time.time && lastKeyCode == KeyCode.D)
                 {   
@@ -68,6 +80,26 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+        if (RollOnce)
+        {
+            if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetAxisRaw("Horizontal") < 0) && controller.m_Grounded)
+            {
+                animator.SetBool("isRolling", true);
+                RollOnce = false;
+                StartCoroutine(Roll(-1f));
+                StartCoroutine(RollCD());
+
+            }
+
+            if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetAxisRaw("Horizontal") > 0) && controller.m_Grounded)
+            {
+               animator.SetBool("isRolling", true);
+               RollOnce = false;
+               StartCoroutine(Roll(1f));
+               StartCoroutine(RollCD());
+            }
+            
+        }
         animator.SetFloat("yVel", m_Rigidbody2D.velocity.y);
     }
 
@@ -76,11 +108,16 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isJumping", false);
     }
 
+    public void onCrouching(bool isCrouching)
+    {
+        animator.SetBool("isCrouching", isCrouching);
+    }
+
     void FixedUpdate()
     {
         //Move character
-       if (!isDashing){
-        controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
+       if (!isDashing || !isRolling){
+        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
        }
     }
@@ -103,4 +140,20 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         dashOnce = true;
     }
+
+    IEnumerator Roll(float direction)
+    {
+        isRolling = true;
+        m_Rigidbody2D.velocity = new Vector2(m_Rigidbody2D.velocity.x, 0f);
+        m_Rigidbody2D.AddForce(new Vector2(rollDist * direction, 0f), ForceMode2D.Impulse);
+        yield return new WaitForSeconds(0.4f);
+        isRolling = false;
+        animator.SetBool("isRolling", false);
+    }
+    IEnumerator RollCD()
+    {
+        yield return new WaitForSeconds(1f);
+        RollOnce = true;
+    }
+
 }

@@ -3987,7 +3987,8 @@ MonoBehaviour:
     m_Bits: 55
   m_GroundCheck: {fileID: 648194792}
   m_CeilingCheck: {fileID: 515116715}
-  m_CrouchDisableCollider: {fileID: 0}
+  m_CrouchDisableCollider: {fileID: 420982073}
+  m_Grounded: 0
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
@@ -4005,7 +4006,19 @@ MonoBehaviour:
         m_CallState: 2
   OnCrouchEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 420982076}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: onCrouching
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!50 &420982071
 Rigidbody2D:
   serializedVersion: 4
@@ -4108,7 +4121,8 @@ MonoBehaviour:
   controller: {fileID: 420982070}
   animator: {fileID: 420982075}
   runSpeed: 40
-  dashDistance: 10
+  dashDistance: 100
+  rollDist: 30
 --- !u!114 &420982077
 MonoBehaviour:
   m_ObjectHideFlags: 0
