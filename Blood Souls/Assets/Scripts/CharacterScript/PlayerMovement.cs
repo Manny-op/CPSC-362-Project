@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
         if (dashOnce){
 
         //dash left
-            if (Input.GetKeyDown(KeyCode.A))
+            if (Input.GetKeyDown(KeyCode.A) && (Input.GetAxisRaw("Horizontal") < 0 ))
             {
                 if (doubleTapTime > Time.time && lastKeyCode == KeyCode.A)
                 {
@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
                 lastKeyCode = KeyCode.A;
             }
             //dash right
-            if (Input.GetKeyDown(KeyCode.D))
+            if (Input.GetKeyDown(KeyCode.D) && (Input.GetAxisRaw("Horizontal") > 0 ))
             {
                 if (doubleTapTime > Time.time && lastKeyCode == KeyCode.D)
                 {   
