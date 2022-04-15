@@ -42,7 +42,6 @@
      <Compile Include="Assets\Programming_Manny\scr_projectile.cs" />
      <Compile Include="Assets\Scripts\CharacterScript\EnemyHealthBar.cs" />
      <Compile Include="Assets\IdleBehavior.cs" />
-     <Compile Include="Assets\scr_attackBox.cs" />
      <Compile Include="Assets\Imported Assets\Free Asset - 2D Handcrafted Art\Scripts\CamerController.cs" />
      <Compile Include="Assets\Manny_UI\UI Scripts\HealthBarScript.cs" />
      <Compile Include="Assets\Programming_Manny\scr_melee_Enem.cs" />
