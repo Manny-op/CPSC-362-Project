@@ -1,0 +1,558 @@
+
+boss_hydra.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 773, 3
+  size: 310, 187
+  orig: 310, 187
+  offset: 0, 0
+  index: -1
+eye_m
+  rotate: false
+  xy: 804, 315
+  size: 132, 130
+  orig: 132, 130
+  offset: 0, 0
+  index: -1
+head_l_2
+  rotate: true
+  xy: 568, 255
+  size: 58, 87
+  orig: 58, 87
+  offset: 0, 0
+  index: -1
+head_m_2
+  rotate: false
+  xy: 962, 59
+  size: 52, 85
+  orig: 52, 85
+  offset: 0, 0
+  index: -1
+head_r_2
+  rotate: false
+  xy: 962, 146
+  size: 55, 88
+  orig: 55, 88
+  offset: 0, 0
+  index: -1
+leg_l_1_1
+  rotate: false
+  xy: 924, 557
+  size: 90, 100
+  orig: 90, 100
+  offset: 0, 0
+  index: -1
+leg_l_1_3
+  rotate: false
+  xy: 657, 255
+  size: 80, 58
+  orig: 80, 58
+  offset: 0, 0
+  index: -1
+leg_r_1_2
+  rotate: true
+  xy: 962, 2
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+leg_r_2_3
+  rotate: false
+  xy: 739, 279
+  size: 27, 34
+  orig: 27, 34
+  offset: 0, 0
+  index: -1
+neck_l_3
+  rotate: true
+  xy: 924, 891
+  size: 120, 95
+  orig: 120, 95
+  offset: 0, 0
+  index: -1
+neck_l_4
+  rotate: true
+  xy: 924, 450
+  size: 105, 83
+  orig: 105, 83
+  offset: 0, 0
+  index: -1
+neck_m_1
+  rotate: true
+  xy: 924, 659
+  size: 105, 90
+  orig: 105, 90
+  offset: 0, 0
+  index: -1
+neck_m_5
+  rotate: false
+  xy: 924, 766
+  size: 88, 123
+  orig: 88, 123
+  offset: 0, 0
+  index: -1
+neck_r_3
+  rotate: false
+  xy: 962, 236
+  size: 60, 90
+  orig: 60, 90
+  offset: 0, 0
+  index: -1
+neck_r_5
+  rotate: false
+  xy: 938, 328
+  size: 60, 120
+  orig: 60, 120
+  offset: 0, 0
+  index: -1
+skill2_1
+  rotate: false
+  xy: 2, 664
+  size: 800, 347
+  orig: 800, 347
+  offset: 0, 0
+  index: -1
+skill2_2
+  rotate: false
+  xy: 2, 315
+  size: 800, 347
+  orig: 800, 347
+  offset: 0, 0
+  index: -1
+skill_1
+  rotate: true
+  xy: 804, 447
+  size: 564, 58
+  orig: 564, 58
+  offset: 0, 0
+  index: -1
+skill_2
+  rotate: false
+  xy: 2, 255
+  size: 564, 58
+  orig: 564, 58
+  offset: 0, 0
+  index: -1
+skill_3
+  rotate: true
+  xy: 864, 447
+  size: 564, 58
+  orig: 564, 58
+  offset: 0, 0
+  index: -1
+tail_1
+  rotate: false
+  xy: 2, 3
+  size: 255, 250
+  orig: 255, 250
+  offset: 0, 0
+  index: -1
+tail_2
+  rotate: false
+  xy: 259, 3
+  size: 255, 250
+  orig: 255, 250
+  offset: 0, 0
+  index: -1
+tail_3
+  rotate: false
+  xy: 516, 3
+  size: 255, 250
+  orig: 255, 250
+  offset: 0, 0
+  index: -1
+
+boss_hydra2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eye_l
+  rotate: false
+  xy: 804, 894
+  size: 137, 128
+  orig: 137, 128
+  offset: 0, 0
+  index: -1
+eye_l_2
+  rotate: false
+  xy: 804, 764
+  size: 137, 128
+  orig: 137, 128
+  offset: 0, 0
+  index: -1
+eye_m_2
+  rotate: false
+  xy: 773, 54
+  size: 132, 130
+  orig: 132, 130
+  offset: 0, 0
+  index: -1
+eye_r
+  rotate: true
+  xy: 804, 354
+  size: 138, 125
+  orig: 138, 125
+  offset: 0, 0
+  index: -1
+eye_r_2
+  rotate: true
+  xy: 804, 494
+  size: 138, 125
+  orig: 138, 125
+  offset: 0, 0
+  index: -1
+head_l_1
+  rotate: false
+  xy: 804, 634
+  size: 137, 128
+  orig: 137, 128
+  offset: 0, 0
+  index: -1
+head_r_1
+  rotate: true
+  xy: 773, 186
+  size: 138, 125
+  orig: 138, 125
+  offset: 0, 0
+  index: -1
+leg_l_1_2
+  rotate: false
+  xy: 943, 662
+  size: 52, 82
+  orig: 52, 82
+  offset: 0, 0
+  index: -1
+leg_l_2_1
+  rotate: false
+  xy: 943, 920
+  size: 67, 102
+  orig: 67, 102
+  offset: 0, 0
+  index: -1
+leg_l_2_2
+  rotate: false
+  xy: 639, 35
+  size: 43, 37
+  orig: 43, 37
+  offset: 0, 0
+  index: -1
+leg_l_2_3
+  rotate: false
+  xy: 931, 395
+  size: 35, 40
+  orig: 35, 40
+  offset: 0, 0
+  index: -1
+leg_l_2_4
+  rotate: false
+  xy: 498, 17
+  size: 72, 55
+  orig: 72, 55
+  offset: 0, 0
+  index: -1
+leg_r_1_1
+  rotate: true
+  xy: 255, 10
+  size: 62, 77
+  orig: 62, 77
+  offset: 0, 0
+  index: -1
+leg_r_1_3
+  rotate: true
+  xy: 943, 823
+  size: 95, 65
+  orig: 95, 65
+  offset: 0, 0
+  index: -1
+leg_r_2_1
+  rotate: true
+  xy: 334, 25
+  size: 47, 87
+  orig: 47, 87
+  offset: 0, 0
+  index: -1
+leg_r_2_2
+  rotate: false
+  xy: 907, 106
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+leg_r_2_4
+  rotate: false
+  xy: 572, 17
+  size: 65, 55
+  orig: 65, 55
+  offset: 0, 0
+  index: -1
+neck_l_1
+  rotate: true
+  xy: 931, 437
+  size: 93, 90
+  orig: 93, 90
+  offset: 0, 0
+  index: -1
+neck_l_2
+  rotate: true
+  xy: 173, 10
+  size: 62, 80
+  orig: 62, 80
+  offset: 0, 0
+  index: -1
+neck_l_5
+  rotate: true
+  xy: 943, 746
+  size: 75, 72
+  orig: 75, 72
+  offset: 0, 0
+  index: -1
+neck_m_2
+  rotate: true
+  xy: 423, 19
+  size: 53, 73
+  orig: 53, 73
+  offset: 0, 0
+  index: -1
+neck_m_3
+  rotate: true
+  xy: 900, 245
+  size: 107, 102
+  orig: 107, 102
+  offset: 0, 0
+  index: -1
+neck_m_4
+  rotate: false
+  xy: 907, 143
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+neck_r_1
+  rotate: false
+  xy: 69, 5
+  size: 102, 67
+  orig: 102, 67
+  offset: 0, 0
+  index: -1
+neck_r_2
+  rotate: false
+  xy: 2, 2
+  size: 65, 70
+  orig: 65, 70
+  offset: 0, 0
+  index: -1
+neck_r_4
+  rotate: false
+  xy: 931, 532
+  size: 85, 100
+  orig: 85, 100
+  offset: 0, 0
+  index: -1
+skill2_3
+  rotate: false
+  xy: 2, 675
+  size: 800, 347
+  orig: 800, 347
+  offset: 0, 0
+  index: -1
+skill2_4
+  rotate: false
+  xy: 2, 326
+  size: 800, 347
+  orig: 800, 347
+  offset: 0, 0
+  index: -1
+tail_4
+  rotate: false
+  xy: 2, 74
+  size: 255, 250
+  orig: 255, 250
+  offset: 0, 0
+  index: -1
+tail_5
+  rotate: false
+  xy: 259, 74
+  size: 255, 250
+  orig: 255, 250
+  offset: 0, 0
+  index: -1
+tail_6
+  rotate: false
+  xy: 516, 74
+  size: 255, 250
+  orig: 255, 250
+  offset: 0, 0
+  index: -1
+
+boss_hydra3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+head_m_1
+  rotate: false
+  xy: 2, 689
+  size: 132, 130
+  orig: 132, 130
+  offset: 0, 0
+  index: -1
+skill1_1
+  rotate: false
+  xy: 136, 480
+  size: 476, 339
+  orig: 476, 339
+  offset: 0, 0
+  index: -1
+skill1_2
+  rotate: true
+  xy: 614, 343
+  size: 476, 339
+  orig: 476, 339
+  offset: 0, 0
+  index: -1
+skill1_3
+  rotate: false
+  xy: 2, 139
+  size: 476, 339
+  orig: 476, 339
+  offset: 0, 0
+  index: -1
+skill1_4
+  rotate: false
+  xy: 480, 2
+  size: 476, 339
+  orig: 476, 339
+  offset: 0, 0
+  index: -1
+
+boss_hydra4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill1_5
+  rotate: true
+  xy: 2, 2
+  size: 476, 339
+  orig: 476, 339
+  offset: 0, 0
+  index: -1
+skill1_6
+  rotate: true
+  xy: 343, 2
+  size: 476, 339
+  orig: 476, 339
+  offset: 0, 0
+  index: -1
+skill2_5
+  rotate: false
+  xy: 2, 480
+  size: 800, 347
+  orig: 800, 347
+  offset: 0, 0
+  index: -1
+
+boss_hydra5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill2_6
+  rotate: false
+  xy: 2, 351
+  size: 800, 347
+  orig: 800, 347
+  offset: 0, 0
+  index: -1
+skill2_7
+  rotate: false
+  xy: 2, 2
+  size: 800, 347
+  orig: 800, 347
+  offset: 0, 0
+  index: -1
+
+boss_hydra6.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill2_8
+  rotate: false
+  xy: 2, 351
+  size: 800, 347
+  orig: 800, 347
+  offset: 0, 0
+  index: -1
+skill2_9
+  rotate: false
+  xy: 2, 2
+  size: 800, 347
+  orig: 800, 347
+  offset: 0, 0
+  index: -1
+
+boss_hydra7.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill2_10
+  rotate: false
+  xy: 2, 351
+  size: 800, 347
+  orig: 800, 347
+  offset: 0, 0
+  index: -1
+skill2_11
+  rotate: false
+  xy: 2, 2
+  size: 800, 347
+  orig: 800, 347
+  offset: 0, 0
+  index: -1
+
+boss_hydra8.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill2_12
+  rotate: false
+  xy: 2, 351
+  size: 800, 347
+  orig: 800, 347
+  offset: 0, 0
+  index: -1
+skill2_13
+  rotate: false
+  xy: 2, 2
+  size: 800, 347
+  orig: 800, 347
+  offset: 0, 0
+  index: -1
+
+boss_hydra9.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill1_7
+  rotate: false
+  xy: 2, 2
+  size: 476, 339
+  orig: 476, 339
+  offset: 0, 0
+  index: -1
+skill2_14
+  rotate: false
+  xy: 2, 343
+  size: 800, 347
+  orig: 800, 347
+  offset: 0, 0
+  index: -1
