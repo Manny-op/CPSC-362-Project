@@ -24,6 +24,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -406,6 +407,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      DeathBlood_4: 179648666
+      DeathBlood_6: -1437782735
+      DeathBlood_1: -1817688394
+      DeathBlood_2: 1470496672
+      DeathBlood_13: -834192426
+      DeathBlood_3: 166865756
+      DeathBlood_0: 1014485288
+      DeathBlood_5: 190867210
+      DeathBlood_8: -66778188
+      DeathBlood_7: 1436292346
+      DeathBlood_11: -919272996
+      DeathBlood_10: 68112894
+      DeathBlood_12: 1981451922
+      DeathBlood_9: 1671346079
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

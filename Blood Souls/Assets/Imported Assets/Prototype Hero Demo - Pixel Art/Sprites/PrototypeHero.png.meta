@@ -246,6 +246,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -255,8 +256,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -826,6 +827,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      PrototypeHero_8: 21300016
+      PrototypeHero_13: 21300026
+      PrototypeHero_18: 21300036
+      PrototypeHero_14: 21300028
+      PrototypeHero_2: 21300004
+      PrototypeHero_7: 21300014
+      PrototypeHero_3: 21300006
+      PrototypeHero_15: 21300030
+      PrototypeHero_23: 21300046
+      PrototypeHero_0: 21300000
+      PrototypeHero_6: 21300012
+      PrototypeHero_16: 21300032
+      PrototypeHero_11: 21300022
+      PrototypeHero_19: 21300038
+      PrototypeHero_5: 21300010
+      PrototypeHero_22: 21300044
+      PrototypeHero_1: 21300002
+      PrototypeHero_12: 21300024
+      PrototypeHero_10: 21300020
+      PrototypeHero_9: 21300018
+      PrototypeHero_20: 21300040
+      PrototypeHero_17: 21300034
+      PrototypeHero_21: 21300042
+      PrototypeHero_4: 21300008
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

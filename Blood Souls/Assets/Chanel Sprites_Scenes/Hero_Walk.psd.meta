@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -244,6 +245,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Hero_Walk_1: -8354836616373275366
+      Hero_Walk_2: 4194473889573187128
+      Hero_Walk_5: 4486960060532156569
+      Hero_Walk_0: -4777769228464193694
+      Hero_Walk_4: -4616963202828180853
+      Hero_Walk_3: 9070338713820004469
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 1

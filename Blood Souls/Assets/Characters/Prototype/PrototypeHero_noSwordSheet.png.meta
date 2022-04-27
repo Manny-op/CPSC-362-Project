@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -105,8 +106,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -676,6 +677,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      PrototypeHero_noSwordSheet_17: 601059126924918158
+      PrototypeHero_noSwordSheet_2: 844233683032792807
+      PrototypeHero_noSwordSheet_7: 6370444783997564472
+      PrototypeHero_noSwordSheet_13: -4844444341622796073
+      PrototypeHero_noSwordSheet_10: -1901030619402227986
+      PrototypeHero_noSwordSheet_21: 3876767274758012254
+      PrototypeHero_noSwordSheet_12: 474417074905325062
+      PrototypeHero_noSwordSheet_11: 8078117370073736897
+      PrototypeHero_noSwordSheet_8: -472696863595874797
+      PrototypeHero_noSwordSheet_0: 2448020947382950949
+      PrototypeHero_noSwordSheet_22: -3304425123738600060
+      PrototypeHero_noSwordSheet_19: 7561944687419419401
+      PrototypeHero_noSwordSheet_20: 5235606902656502337
+      PrototypeHero_noSwordSheet_1: -1570016244715224348
+      PrototypeHero_noSwordSheet_3: 8000287538308508520
+      PrototypeHero_noSwordSheet_5: 5130823675846961080
+      PrototypeHero_noSwordSheet_6: -4343763741756349131
+      PrototypeHero_noSwordSheet_18: -7275019466278889952
+      PrototypeHero_noSwordSheet_16: -6821626151858302634
+      PrototypeHero_noSwordSheet_15: 1733677058650879406
+      PrototypeHero_noSwordSheet_9: 3794500535575795562
+      PrototypeHero_noSwordSheet_4: -8887152081920378191
+      PrototypeHero_noSwordSheet_14: -7909599019623208904
+      PrototypeHero_noSwordSheet_23: 4350338003755109074
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

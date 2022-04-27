@@ -24,6 +24,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -259,6 +260,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Go up stair_4: 1471509028
+      Go up stair_0: -284080469
+      Go up stair_5: 2017200643
+      Go up stair_1: 1586584472
+      Go up stair_2: 1221888417
+      Go up stair_3: 133852483
+      Go up stair_6: -809567869
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

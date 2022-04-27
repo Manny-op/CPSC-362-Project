@@ -93,6 +93,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -101,9 +102,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -640,6 +641,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      head_m_2: 21300006
+      neck_m_5: 21300024
+      skill2_2: 21300032
+      skill_1: 21300034
+      leg_l_1_3: 21300012
+      tail_3: 21300044
+      leg_r_2_3: 21300016
+      tail_1: 21300040
+      skill_2: 21300036
+      head_l_2: 21300004
+      leg_l_1_1: 21300010
+      tail_2: 21300042
+      eye_m: 21300002
+      neck_r_3: 21300026
+      neck_r_5: 21300028
+      skill_3: 21300038
+      skill2_1: 21300030
+      neck_l_3: 21300018
+      body: 21300000
+      head_r_2: 21300008
+      neck_l_4: 21300020
+      leg_r_1_2: 21300014
+      neck_m_1: 21300022
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
