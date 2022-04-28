@@ -19,7 +19,6 @@ public class TransitionOneBehavior : StateMachineBehaviour
            PlayerCombat.instance.InputManager();
            PlayerCombat.instance.InputReceived = false;
            PlayerCombat.instance.Stats.StaminaUse(10);
-           PlayerCombat.instance.dealDamage();
        }
     }
 
