@@ -8,6 +8,7 @@ public class scr_ranged_enemy : MonoBehaviour
     public GameObject bullet;
     GameObject player;
     float timer;
+    public Animator animator;
 
     [SerializeField]
     private int healthPoints;
@@ -41,6 +42,7 @@ public class scr_ranged_enemy : MonoBehaviour
         {
             timer = 0f;
             Shoot();
+            //
         }
     }
 
@@ -54,6 +56,7 @@ public class scr_ranged_enemy : MonoBehaviour
 
     void Shoot()
     {
+        animator.SetBool("IsAttack", true);
         float x = transform.position.x;
         float y = transform.position.y;
         float z = transform.position.z;

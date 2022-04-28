@@ -29,7 +29,7 @@ public class scr_projectile : MonoBehaviour
     {
         if (timer <= 0f)
         {
-            Destroy(gameObject);
+            Destroy(this.gameObject);
         }
         else
         {
@@ -48,6 +48,7 @@ public class scr_projectile : MonoBehaviour
         {
             collision.GetComponent<PlayerCombat>().playerHealth -= 5;
             Debug.Log("Take Damage");
+            Destroy(this.gameObject);
         }
     }
 }
