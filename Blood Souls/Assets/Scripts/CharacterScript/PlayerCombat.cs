@@ -17,7 +17,7 @@ public class PlayerCombat : MonoBehaviour
     public HealthBarScript Stats;
     public Animator animator;
     public Transform attackPoint;
-    public float attackRange = 0.5f;
+    public float attackRange = 1f;
     public LayerMask enemyLayers;
 
     public LayerMask parryLayers;
