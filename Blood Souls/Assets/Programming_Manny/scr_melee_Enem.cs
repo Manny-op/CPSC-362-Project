@@ -6,6 +6,8 @@ public class scr_melee_Enem : MonoBehaviour
 {
     private GameObject player;
     public GameObject attackBox;
+    float timer;
+    public float maxTimer;
 
     [SerializeField]
     private int healthPoints;
@@ -27,6 +29,7 @@ public class scr_melee_Enem : MonoBehaviour
         movementSpeed = 5;
         attackDamage = 6;  // Deals out 6 hit points from the looks of it to player
         charBehavior = 4;
+        timer = 0;
 
 
         //now get a reference player object.
@@ -36,6 +39,13 @@ public class scr_melee_Enem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        timer += Time.deltaTime;
+        if (timer >= maxTimer)
+        {
+            timer = 0;
+            Attack();
+        }
         if (healthPoints <=0)
         {
             Destroy(gameObject);
@@ -74,7 +84,10 @@ public class scr_melee_Enem : MonoBehaviour
 
     void Attack()
     {
-        GameObject hitBox = Instantiate(attackBox);
+        float x = transform.position.x;
+        float y = transform.position.y;
+        float z = transform.position.z;
+        GameObject hitBox = Instantiate(attackBox, new Vector3(x, y, z), Quaternion.identity);
     }
 
 }
