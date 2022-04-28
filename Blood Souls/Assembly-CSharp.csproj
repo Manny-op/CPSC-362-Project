@@ -42,6 +42,7 @@
      <Compile Include="Assets\Scripts\ParallaxScrolling.cs" />
      <Compile Include="Assets\Programming_Manny\scr_projectile.cs" />
      <Compile Include="Assets\Scripts\CharacterScript\EnemyHealthBar.cs" />
+     <Compile Include="Assets\IdleBehavior.cs" />
      <Compile Include="Assets\scr_attackBox.cs" />
      <Compile Include="Assets\Imported Assets\Free Asset - 2D Handcrafted Art\Scripts\CamerController.cs" />
      <Compile Include="Assets\Manny_UI\UI Scripts\HealthBarScript.cs" />
@@ -50,9 +51,10 @@
      <Compile Include="Assets\Imported Assets\Bandits - Pixel Art\Demo\Sensor_Bandit.cs" />
      <Compile Include="Assets\Scripts\CharacterScript\CharacterController2D.cs" />
      <Compile Include="Assets\enemyChar.cs" />
+     <Compile Include="Assets\TransitionTwoBehavior.cs" />
+     <Compile Include="Assets\TransitionOneBehavior.cs" />
      <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\PrototypeHeroDemo.cs" />
      <Compile Include="Assets\Programming_Manny\ranged_enem_anim_event.cs" />
-     <Compile Include="Assets\Scripts\CharacterScript\PlayerCombat.cs" />
      <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\Dust_DestroyEvent.cs" />
      <Compile Include="Assets\Scripts\CharacterScript\Enemy.cs" />
      <Compile Include="Assets\Scripts\CharacterScript\PlayerMovement.cs" />
