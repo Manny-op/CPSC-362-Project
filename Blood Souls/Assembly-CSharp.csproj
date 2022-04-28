@@ -36,7 +36,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Programming_Manny\scr_ranged_enemy.cs" />
      <Compile Include="Assets\ParryCollider.cs" />
      <Compile Include="Assets\Imported Assets\Bandits - Pixel Art\Demo\Bandit.cs" />
      <Compile Include="Assets\Scripts\ParallaxScrolling.cs" />
@@ -47,19 +46,17 @@
      <Compile Include="Assets\Imported Assets\Free Asset - 2D Handcrafted Art\Scripts\CamerController.cs" />
      <Compile Include="Assets\Manny_UI\UI Scripts\HealthBarScript.cs" />
      <Compile Include="Assets\Programming_Manny\scr_melee_Enem.cs" />
-     <Compile Include="Assets\Imported Assets\Boss Hydra\AnimationEvent.cs" />
      <Compile Include="Assets\Imported Assets\Bandits - Pixel Art\Demo\Sensor_Bandit.cs" />
      <Compile Include="Assets\Scripts\CharacterScript\CharacterController2D.cs" />
      <Compile Include="Assets\enemyChar.cs" />
      <Compile Include="Assets\TransitionTwoBehavior.cs" />
      <Compile Include="Assets\TransitionOneBehavior.cs" />
      <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\PrototypeHeroDemo.cs" />
-     <Compile Include="Assets\Programming_Manny\ranged_enem_anim_event.cs" />
+     <Compile Include="Assets\Scripts\CharacterScript\PlayerCombat.cs" />
      <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\Dust_DestroyEvent.cs" />
      <Compile Include="Assets\Scripts\CharacterScript\Enemy.cs" />
      <Compile Include="Assets\Scripts\CharacterScript\PlayerMovement.cs" />
      <Compile Include="Assets\TimeManager.cs" />
-     <Compile Include="Assets\Imported Assets\Boss Hydra\demo\UnitControl.cs" />
      <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\Sensor_Prototype.cs" />
      <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\AudioManager_PrototypeHero.cs" />
      <None Include="Assets\Imported Assets\Boss Hydra\boss_hydra_spine\Export\boss_hydra.atlas.txt" />
