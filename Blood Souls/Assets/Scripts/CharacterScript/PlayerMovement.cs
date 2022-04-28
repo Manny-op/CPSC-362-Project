@@ -10,9 +10,18 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     bool jump = false;
 
+    bool crouch = false;
+
     public float dashDistance = 15f;
+    public float vdashDistance = 15f;
+    public float rollDist = 10f;
+
+    float gravityfordash = 0f;
     bool isDashing;
+    bool isRolling;
     bool dashOnce = true;
+    bool RollOnce = true;
+   public bool isParrying = false;
     float doubleTapTime;
     KeyCode lastKeyCode;
     private Rigidbody2D m_Rigidbody2D;
@@ -21,20 +30,28 @@ public class PlayerMovement : MonoBehaviour
     void Awake()
     {
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
+        gravityfordash = m_Rigidbody2D.gravityScale;
     }
     void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && !isParrying && !isRolling)
         {
             jump = true;
             animator.SetBool("isJumping", true);
         }
-        if (dashOnce){
-
+        if (Input.GetKeyDown(KeyCode.S) && !isParrying)
+        {
+            crouch = true;
+        }
+        else if (Input.GetKeyUp(KeyCode.S) && !isParrying)
+        {
+            crouch = false;
+        }
+        if (dashOnce && !isRolling && !isParrying){
         //dash left
-            if (Input.GetKeyDown(KeyCode.A))
+            if (Input.GetKeyDown(KeyCode.A) && (Input.GetAxisRaw("Horizontal") < 0 ) && !crouch)
             {
                 if (doubleTapTime > Time.time && lastKeyCode == KeyCode.A)
                 {
@@ -51,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
                 lastKeyCode = KeyCode.A;
             }
             //dash right
-            if (Input.GetKeyDown(KeyCode.D))
+            if (Input.GetKeyDown(KeyCode.D) && (Input.GetAxisRaw("Horizontal") > 0 ) && !crouch)
             {
                 if (doubleTapTime > Time.time && lastKeyCode == KeyCode.D)
                 {   
@@ -68,6 +85,26 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+        if (RollOnce && !isDashing && !isParrying)
+        {
+            if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetAxisRaw("Horizontal") < 0) && controller.m_Grounded)
+            {
+                animator.SetBool("isRolling", true);
+                RollOnce = false;
+                StartCoroutine(Roll(-1f));
+                StartCoroutine(RollCD());
+
+            }
+
+            if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetAxisRaw("Horizontal") > 0) && controller.m_Grounded)
+            {
+               animator.SetBool("isRolling", true);
+               RollOnce = false;
+               StartCoroutine(Roll(1f));
+               StartCoroutine(RollCD());
+            }
+            
+        }
         animator.SetFloat("yVel", m_Rigidbody2D.velocity.y);
     }
 
@@ -76,11 +113,16 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isJumping", false);
     }
 
+    public void onCrouching(bool isCrouching)
+    {
+        animator.SetBool("isCrouching", isCrouching);
+    }
+
     void FixedUpdate()
     {
         //Move character
-       if (!isDashing){
-        controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
+       if (!isDashing || !isRolling || !isParrying){
+        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
        }
     }
@@ -98,9 +140,38 @@ public class PlayerMovement : MonoBehaviour
         m_Rigidbody2D.gravityScale = gravity;
     }
 
+    public void DashUp()
+    {
+        m_Rigidbody2D.velocity = new Vector2(0f, m_Rigidbody2D.velocity.y);
+        m_Rigidbody2D.AddForce(new Vector2(0f, vdashDistance), ForceMode2D.Impulse);
+        m_Rigidbody2D.gravityScale = 0;
+    }
+
+    public void DashDown()
+    {
+        m_Rigidbody2D.AddForce(new Vector2(0f, -vdashDistance), ForceMode2D.Impulse);
+        m_Rigidbody2D.gravityScale = gravityfordash;
+    }
+
     IEnumerator DashCooldown()
     {
         yield return new WaitForSeconds(1.5f);
         dashOnce = true;
     }
+
+    IEnumerator Roll(float direction)
+    {
+        isRolling = true;
+        m_Rigidbody2D.velocity = new Vector2(m_Rigidbody2D.velocity.x, 0f);
+        m_Rigidbody2D.AddForce(new Vector2(rollDist * direction, 0f), ForceMode2D.Impulse);
+        yield return new WaitForSeconds(0.4f);
+        isRolling = false;
+        animator.SetBool("isRolling", false);
+    }
+    IEnumerator RollCD()
+    {
+        yield return new WaitForSeconds(1f);
+        RollOnce = true;
+    }
+
 }
