@@ -15,11 +15,11 @@ C:/Users/ikell/Desktop/GitHub/Blood Souls
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54445
+53367
 Successfully changed project path to: C:/Users/ikell/Desktop/GitHub/Blood Souls
 C:/Users/ikell/Desktop/GitHub/Blood Souls
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.13 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 62.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,353 +35,705 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002808 seconds.
+Registered in 0.002339 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 54.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.185 seconds
+- Completed reload, in  1.208 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001364 seconds.
+Registered in 0.001189 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.94 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 63.89 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
+- Completed reload, in  1.122 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.6 MB.
 System memory in use after: 86.5 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2265.
-Total: 2.344800 ms (FindLiveObjects: 0.273700 ms CreateObjectMapping: 0.198500 ms MarkObjects: 1.665400 ms  DeleteObjects: 0.205900 ms)
+Total: 2.288600 ms (FindLiveObjects: 0.280100 ms CreateObjectMapping: 0.170600 ms MarkObjects: 1.708900 ms  DeleteObjects: 0.127900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Boss Level.unity
-  artifactKey: Guid(2b278f234376f5b4fb3f1060cf8d7ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Boss Level.unity using Guid(2b278f234376f5b4fb3f1060cf8d7ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386e046e15cf457c7f36d6d03da9911f') in 0.018034 seconds
-  Import took 0.021333 seconds .
+  path: Assets/Grass Platform Palette.prefab
+  artifactKey: Guid(75de5383c3583e248be70745f258407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass Platform Palette.prefab using Guid(75de5383c3583e248be70745f258407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10f7eaa57eb772183fe1065d4819347') in 0.059180 seconds
+  Import took 0.063061 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.374664 seconds.
-  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets
-  artifactKey: Guid(fca484a638c989e4d899378f52d7c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets using Guid(fca484a638c989e4d899378f52d7c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3bc576c7399f628d23aee60b2d934e') in 0.008202 seconds
-  Import took 0.011401 seconds .
+  Time since last request: 170.222094 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Music/Tropical moments - loop version.wav
+  artifactKey: Guid(686dcd8b39034ed418eefb024ef40fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Music/Tropical moments - loop version.wav using Guid(686dcd8b39034ed418eefb024ef40fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904f8a820803beeadf7f76f1b14072c2') in 0.193976 seconds
+  Import took 0.199152 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.054013 seconds.
-  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Backgrounds
-  artifactKey: Guid(4032d8f8d13c5954f956f116443aacff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Backgrounds using Guid(4032d8f8d13c5954f956f116443aacff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60efb8ecb6a05bbd4565ceebb0a503d') in 0.008438 seconds
-  Import took 0.012296 seconds .
+  Time since last request: 0.000314 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Music/Tropical Moments.wav
+  artifactKey: Guid(17d56b8feca4f5b4b922c423b0ddda74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Music/Tropical Moments.wav using Guid(17d56b8feca4f5b4b922c423b0ddda74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd405c6de1e27698a9e8f3828e70d73') in 0.022172 seconds
+  Import took 0.025868 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.672689 seconds.
-  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background
-  artifactKey: Guid(d1812e76ef309974dab10fcb8a0593ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background using Guid(d1812e76ef309974dab10fcb8a0593ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02404b5b596294a31e3d1543ffdc5cab') in 0.007995 seconds
-  Import took 0.011980 seconds .
+  Time since last request: 0.002003 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Music/Tropical Moments.wav
+  artifactKey: Guid(17d56b8feca4f5b4b922c423b0ddda74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Music/Tropical Moments.wav using Guid(17d56b8feca4f5b4b922c423b0ddda74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd405c6de1e27698a9e8f3828e70d73') in 0.014086 seconds
+  Import took 0.017540 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.076739 seconds.
-  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png
-  artifactKey: Guid(b1af854388f12ea46b814763cf1775fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png using Guid(b1af854388f12ea46b814763cf1775fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b397ad5a0bd09137a892b4e8e32789') in 0.008882 seconds
-  Import took 0.012023 seconds .
+  Time since last request: 0.315698 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/AWaterCaustic.mat
+  artifactKey: Guid(fa7bf18826f0ff146957b12c248df3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/AWaterCaustic.mat using Guid(fa7bf18826f0ff146957b12c248df3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7063b069f0f314d96412146ca65e8953') in 0.046515 seconds
+  Import took 0.051491 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.588176 seconds.
-  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080
-  artifactKey: Guid(b9f215df0afd812498117de05656ec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080 using Guid(b9f215df0afd812498117de05656ec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ab128fb0680cc81348f291ae18eb6e') in 0.006717 seconds
-  Import took 0.009836 seconds .
+  Time since last request: 0.000360 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/Bubble.mat
+  artifactKey: Guid(e59d4203a56cb11498ed8fa86f1f5dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/Bubble.mat using Guid(e59d4203a56cb11498ed8fa86f1f5dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9620e54d819f74f611284b19137ee8') in 0.021621 seconds
+  Import took 0.026324 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.159786 seconds.
-  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/Background
-  artifactKey: Guid(9e33d8eab5601ba4e98e72e772e4d603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/Background using Guid(9e33d8eab5601ba4e98e72e772e4d603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3057009b88e066ec303b42768162843e') in 0.003085 seconds
-  Import took 0.006207 seconds .
+  Time since last request: 0.000351 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/PlantSwayMedium.mat
+  artifactKey: Guid(023ee82208119204591590225beece4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/PlantSwayMedium.mat using Guid(023ee82208119204591590225beece4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e135f2ae495b89abb6bb88d89016187') in 0.048658 seconds
+  Import took 0.052794 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.113312 seconds.
-  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/Background/Background.png
-  artifactKey: Guid(a52c61e4d863eb24eb1a6cec742bd3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/Background/Background.png using Guid(a52c61e4d863eb24eb1a6cec742bd3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f037adc8fa463dc56a4b44ead6821817') in 0.130095 seconds
-  Import took 0.133632 seconds .
+  Time since last request: 0.000390 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/Ripple.mat
+  artifactKey: Guid(869155811c20fad4f8d2eed2cb20d095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/Ripple.mat using Guid(869155811c20fad4f8d2eed2cb20d095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49367728efbde6587571079ed4c90d30') in 0.019730 seconds
+  Import took 0.024362 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 412.498441 seconds.
-  path: Assets/Dark_Forest/Sprites/bgrd_tree1.png
-  artifactKey: Guid(de3df8bfabc7d93479736fa4c153cb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/bgrd_tree1.png using Guid(de3df8bfabc7d93479736fa4c153cb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9960b2a99cea8fc9a817e61100acccd3') in 0.018507 seconds
-  Import took 0.022850 seconds .
+  Time since last request: 0.000422 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/PlantSwayBG.mat
+  artifactKey: Guid(8197c785f88966c4689bb6a0a35bfe9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/PlantSwayBG.mat using Guid(8197c785f88966c4689bb6a0a35bfe9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639c930d8198c347e26e4b1d0bab675a') in 0.022956 seconds
+  Import took 0.027982 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000451 seconds.
-  path: Assets/Dark_Forest/Sprites/wood_env.png
-  artifactKey: Guid(90798b7f4ae8bea479a1995c488bb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/wood_env.png using Guid(90798b7f4ae8bea479a1995c488bb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0206dbe22bba2679ff9821a716cffd97') in 0.027332 seconds
-  Import took 0.031850 seconds .
+  Time since last request: 0.000311 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/Suspension.mat
+  artifactKey: Guid(3a586f20dd4370f4fad59e0ba7c81c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/Suspension.mat using Guid(3a586f20dd4370f4fad59e0ba7c81c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db33d3c65f5f09ca31b5469fd371bb2') in 0.014545 seconds
+  Import took 0.019693 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/Dark_Forest/Sprites/env_mon.png
-  artifactKey: Guid(6a23b508abd49df48b72ee49cd47bf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/env_mon.png using Guid(6a23b508abd49df48b72ee49cd47bf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74084dbf1ad39905d4782a4a3976f94') in 0.023437 seconds
-  Import took 0.029759 seconds .
+  Time since last request: 0.000373 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/PlantSwayLarge.mat
+  artifactKey: Guid(77282f77c23a7eb428e2fc55559e4d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/PlantSwayLarge.mat using Guid(77282f77c23a7eb428e2fc55559e4d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889302baa2d14ba03eca2d70fde2e3bd') in 0.015484 seconds
+  Import took 0.021029 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Dark_Forest/Sprites/env_trees.png
-  artifactKey: Guid(c70abfca77f36714b92b411ffbced25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/env_trees.png using Guid(c70abfca77f36714b92b411ffbced25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e1669586744494f8f40fcf1c22a626') in 0.021848 seconds
-  Import took 0.025882 seconds .
+  Time since last request: 0.000436 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/Shaft.mat
+  artifactKey: Guid(e49eb60e62e3736409132fe6c19a2ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/Shaft.mat using Guid(e49eb60e62e3736409132fe6c19a2ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a662a7748a2d56c7810c5325acc8d8a') in 0.032743 seconds
+  Import took 0.043584 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Dark_Forest/Sprites/main_background.png
-  artifactKey: Guid(18d1ddd5985afab43a3a8300d1a01faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/main_background.png using Guid(18d1ddd5985afab43a3a8300d1a01faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aabfcacc5cdc0b416857238a9c9ca4a') in 0.024902 seconds
-  Import took 0.028628 seconds .
+  Time since last request: 0.000274 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/Drop.mat
+  artifactKey: Guid(dbe0dfa3fcd760844833fba257f2f548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/Drop.mat using Guid(dbe0dfa3fcd760844833fba257f2f548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590308ffbbab762ff0ffda41c21f3a1f') in 0.019558 seconds
+  Import took 0.024388 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Dark_Forest/Sprites/bgrd_tree4.png
-  artifactKey: Guid(3b5a750494478e543be641d3aed3b6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/bgrd_tree4.png using Guid(3b5a750494478e543be641d3aed3b6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd897c4340c13535f1493cf2511f92a3b') in 0.020218 seconds
-  Import took 0.024794 seconds .
+  Time since last request: 0.000449 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/Lit.mat
+  artifactKey: Guid(ead5361e8c9bd0a4e8c43b8fda442793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/Lit.mat using Guid(ead5361e8c9bd0a4e8c43b8fda442793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b98aa2094c7b3b9579efb51132f7334') in 0.114793 seconds
+  Import took 0.118745 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Dark_Forest/Sprites/castle_env.png
-  artifactKey: Guid(5251b297217deb84b9c615310cbdccdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/castle_env.png using Guid(5251b297217deb84b9c615310cbdccdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da4f9889f168829c105b71421032fa5') in 0.019986 seconds
-  Import took 0.024303 seconds .
+  Time since last request: 0.000370 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/Dust1.mat
+  artifactKey: Guid(519ff5f872c0f5d4da6d5130a1597554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Material/Dust1.mat using Guid(519ff5f872c0f5d4da6d5130a1597554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b97a582e8b45e0af9b01fe390633f0c') in 0.014316 seconds
+  Import took 0.019898 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000669 seconds.
-  path: Assets/Dark_Forest/Sprites/bgrd_tree2.png
-  artifactKey: Guid(c09313a3379ebb44fb08e8a0b6bfca81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/bgrd_tree2.png using Guid(c09313a3379ebb44fb08e8a0b6bfca81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50073b36598978303a90da64214367b2') in 0.019144 seconds
-  Import took 0.024692 seconds .
+  Time since last request: 0.868320 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Prefab/Drops.prefab
+  artifactKey: Guid(f8d68b077782545439effc638eac1db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Prefab/Drops.prefab using Guid(f8d68b077782545439effc638eac1db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ae33fa70cf987d154867e906c67fe3') in 0.030965 seconds
+  Import took 0.038304 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Dark_Forest/Sprites/bgrd_tree3.png
-  artifactKey: Guid(9615eb05c38a5024da20b41889bf96d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/bgrd_tree3.png using Guid(9615eb05c38a5024da20b41889bf96d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951bafd10ec4927c86509d423a3f1c07') in 0.017353 seconds
-  Import took 0.020625 seconds .
+  Time since last request: 0.000274 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Prefab/Dust2.prefab
+  artifactKey: Guid(1bebafe46ad6c91498badf5d89804451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Prefab/Dust2.prefab using Guid(1bebafe46ad6c91498badf5d89804451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233e6d1c4d825e4c58fab195f0de6e93') in 0.030300 seconds
+  Import took 0.033881 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Dark_Forest/Sprites/bgrd_tree2.png
-  artifactKey: Guid(c09313a3379ebb44fb08e8a0b6bfca81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/bgrd_tree2.png using Guid(c09313a3379ebb44fb08e8a0b6bfca81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50073b36598978303a90da64214367b2') in 0.011207 seconds
-  Import took 0.015117 seconds .
+  Time since last request: 0.000418 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Prefab/Dust.prefab
+  artifactKey: Guid(411bc9616f611ce49a9df7a02d549cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Prefab/Dust.prefab using Guid(411bc9616f611ce49a9df7a02d549cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30216affd8982401d84dae33d89fe72') in 0.021880 seconds
+  Import took 0.028060 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Dark_Forest/Sprites/bgrd_tree5.png
-  artifactKey: Guid(49a21a9300fcd1e4380acf24d06aafc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/bgrd_tree5.png using Guid(49a21a9300fcd1e4380acf24d06aafc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b832b27a59788186447646761d45a63d') in 0.026821 seconds
-  Import took 0.030798 seconds .
+  Time since last request: 0.000710 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Prefab/Sun_rays.prefab
+  artifactKey: Guid(292bbc865a358704a84b3a9512b6d0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Prefab/Sun_rays.prefab using Guid(292bbc865a358704a84b3a9512b6d0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4527be00b26afe7fcd303ab8e8cc43c9') in 0.013068 seconds
+  Import took 0.018166 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Dark_Forest/Sprites/env_ground.png
-  artifactKey: Guid(532d89cce32ef33469a10c43c44556ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/env_ground.png using Guid(532d89cce32ef33469a10c43c44556ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66efb6cc6f78576d6ba7594bce462e1a') in 0.025116 seconds
-  Import took 0.028743 seconds .
+  Time since last request: 0.000261 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Prefab/WaterSuspension.prefab
+  artifactKey: Guid(b30d9391f199e7b4fbf3a08af1835fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Prefab/WaterSuspension.prefab using Guid(b30d9391f199e7b4fbf3a08af1835fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da54f0f4cd6740c1387b551b0312a98') in 0.010276 seconds
+  Import took 0.014327 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Dark_Forest/Sprites/env_rock.png
-  artifactKey: Guid(93c7f893ffffbec45b617e1c3e375f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/env_rock.png using Guid(93c7f893ffffbec45b617e1c3e375f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c38a8cdc4db78822f451158ad2d35ce') in 0.022076 seconds
-  Import took 0.025550 seconds .
+  Time since last request: 0.000229 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Prefab/Ripple.prefab
+  artifactKey: Guid(e64b62ab6c9c9024fb88039858b97ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Prefab/Ripple.prefab using Guid(e64b62ab6c9c9024fb88039858b97ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8c3c6d4a3867c91ea1ed9f6bcf304c') in 0.007683 seconds
+  Import took 0.012535 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Dark_Forest/Sprites/top_far_bgrnd.png
-  artifactKey: Guid(550e91c594125c5409bd8646924ced15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/top_far_bgrnd.png using Guid(550e91c594125c5409bd8646924ced15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb06ea1ba23f0d3b35bba333d2ec79a') in 0.022451 seconds
-  Import took 0.026045 seconds .
+  Time since last request: 2.704984 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/Dust1.psd
+  artifactKey: Guid(3dec6952ae175ec489db5acd6fdbc68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/Dust1.psd using Guid(3dec6952ae175ec489db5acd6fdbc68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb40098fd17b5337d9cc529b5f09dad') in 0.027942 seconds
+  Import took 0.031712 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Dark_Forest/Sprites/decorative_obj.png
-  artifactKey: Guid(120d8d95c9fd212499279a73119505aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/decorative_obj.png using Guid(120d8d95c9fd212499279a73119505aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654ec7c140b220b6245d0b744406c8ee') in 0.026689 seconds
-  Import took 0.032628 seconds .
+  Time since last request: 0.000431 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/SunRays.psd
+  artifactKey: Guid(3960e1e6835b1934d95575d2ca534fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/SunRays.psd using Guid(3960e1e6835b1934d95575d2ca534fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b33f02a6e4b0bb9e512b7f79c3ae69d') in 0.018760 seconds
+  Import took 0.022509 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.785303 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e571d2b3735a2e920950a19e6f5ffe') in 0.018246 seconds
-  Import took 0.021560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 157.673783 seconds.
-  path: Assets/Dark_Forest/Sprites/Sliced
-  artifactKey: Guid(b0cc024f97bc52c439f6d01fd30ebef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/Sliced using Guid(b0cc024f97bc52c439f6d01fd30ebef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef991e31b14659e2867f72a7fce9bfd2') in 0.009210 seconds
-  Import took 0.013526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.064286 seconds.
-  path: Assets/Dark_Forest/Sprites/Sliced/bgrd_tree1.png
-  artifactKey: Guid(59c40e9bf99ef3b478c974531f9e6d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/Sliced/bgrd_tree1.png using Guid(59c40e9bf99ef3b478c974531f9e6d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7d58af2d25196c37ff03142eac22c0') in 0.011973 seconds
-  Import took 0.015987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Dark_Forest/Sprites/Sliced/castle_env.png
-  artifactKey: Guid(f92108e62af6ac444980a5f1a0acb5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/Sliced/castle_env.png using Guid(f92108e62af6ac444980a5f1a0acb5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feeaf92898521e78312b151fc67f7444') in 2.203604 seconds
-  Import took 2.213218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/Dark_Forest/Sprites/Sliced/main_background.png
-  artifactKey: Guid(81d5995c353891a49bf7a0d2dc9a7b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/Sliced/main_background.png using Guid(81d5995c353891a49bf7a0d2dc9a7b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14939f7594555538ce83bbd49a4bf78') in 0.016074 seconds
-  Import took 0.019436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Dark_Forest/Sprites/Sliced/bgrd_tree5.png
-  artifactKey: Guid(0903063eee308ef479c7bac18f4f4e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/Sliced/bgrd_tree5.png using Guid(0903063eee308ef479c7bac18f4f4e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d836adbd0a2c7bc8dc75201cf2f18cf') in 0.007948 seconds
-  Import took 0.011249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Dark_Forest/Sprites/Sliced/bgrd_tree3.png
-  artifactKey: Guid(6e8cfb191ced1eb40a94d29f632f952a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/Sliced/bgrd_tree3.png using Guid(6e8cfb191ced1eb40a94d29f632f952a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2beaace4fa8a9544f9a4048ffb36945c') in 0.008389 seconds
-  Import took 0.011927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Dark_Forest/Sprites/Sliced/env_mon.png
-  artifactKey: Guid(8e9e76f64fc248a4b843854f6613ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/Sliced/env_mon.png using Guid(8e9e76f64fc248a4b843854f6613ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4c5a5f847026d040d9fa6a94fcd541') in 0.860577 seconds
-  Import took 0.871464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Dark_Forest/Sprites/Sliced/decorative_obj.png
-  artifactKey: Guid(04054f5d2214c9642b2a456b7b921414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/Sliced/decorative_obj.png using Guid(04054f5d2214c9642b2a456b7b921414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba374b5acb5d84748416ce24c665dd33') in 1.000683 seconds
-  Import took 1.007780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Dark_Forest/Sprites/Sliced/env_ground.png
-  artifactKey: Guid(7b49ce16a21450a419618863cf33cbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/Sliced/env_ground.png using Guid(7b49ce16a21450a419618863cf33cbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2fbf64ae240e06c43c929b1ce40edc') in 1.133768 seconds
-  Import took 1.140954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Dark_Forest/Sprites/Sliced/env_trees.png
-  artifactKey: Guid(a86ab2c3b362abd4bb90af1bb44aff3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/Sliced/env_trees.png using Guid(a86ab2c3b362abd4bb90af1bb44aff3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3178338bccfc9f8587bbc177d372d8c9') in 1.361255 seconds
-  Import took 1.368121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Dark_Forest/Sprites/Sliced/bgrd_tree2.png
-  artifactKey: Guid(f1d4b828de940134b8cbf6a9f93a5653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/Sliced/bgrd_tree2.png using Guid(f1d4b828de940134b8cbf6a9f93a5653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566137117d640b657b74e064b47c5769') in 0.011703 seconds
-  Import took 0.016131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Dark_Forest/Sprites/Sliced/bgrd_tree4.png
-  artifactKey: Guid(140d47a4d8b5a574594d83b98684c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/Sliced/bgrd_tree4.png using Guid(140d47a4d8b5a574594d83b98684c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a95edb4042ea1cbb83245ab7d034a53') in 0.007828 seconds
-  Import took 0.011364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Dark_Forest/Sprites/Sliced/wood_env.png
-  artifactKey: Guid(a90e7ae3ed57b3a4b8f5dc630006ccb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/Sliced/wood_env.png using Guid(a90e7ae3ed57b3a4b8f5dc630006ccb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4daa2b76695b9abdbc84ac1700bd22b') in 0.728078 seconds
-  Import took 0.733789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Dark_Forest/Sprites/Sliced/env_rock.png
-  artifactKey: Guid(94e976c5e86253f4cbc972a61fc6a87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/Sliced/env_rock.png using Guid(94e976c5e86253f4cbc972a61fc6a87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd798d1e1db26919d365eb43da8c4aae4') in 1.205506 seconds
-  Import took 1.214440 seconds .
+  Time since last request: 0.000456 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/Fog.psd
+  artifactKey: Guid(4029ecf14233cea4980157b99d0cbc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/Fog.psd using Guid(4029ecf14233cea4980157b99d0cbc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90cb581cd056575635448e95e117577') in 0.053190 seconds
+  Import took 0.056600 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000320 seconds.
-  path: Assets/Dark_Forest/Sprites/Sliced/top_far_bgrnd.png
-  artifactKey: Guid(93f45b0e21c63554785c8f7890cc8e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark_Forest/Sprites/Sliced/top_far_bgrnd.png using Guid(93f45b0e21c63554785c8f7890cc8e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728ed230591ebdd7960ad7ccf5cfe989') in 2.897604 seconds
-  Import took 2.908878 seconds .
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/WaterDrop.png
+  artifactKey: Guid(35918f6e079a0b04fa52f4d4f14dad6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/WaterDrop.png using Guid(35918f6e079a0b04fa52f4d4f14dad6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b33b75f47a85bf8d5aaafb6008d4ad') in 0.026256 seconds
+  Import took 0.029496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/WaterCausticSprite.psd
+  artifactKey: Guid(1662ec17f4b516c46b0972250c36ade0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/WaterCausticSprite.psd using Guid(1662ec17f4b516c46b0972250c36ade0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa18df7278ed2150bd23ded0fb896bdd') in 0.179612 seconds
+  Import took 0.182747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/suspensionDark.png
+  artifactKey: Guid(3da62fbb1303db94c87eb855e007b9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/suspensionDark.png using Guid(3da62fbb1303db94c87eb855e007b9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cee19e2d2d4b24efa6c9dee755c1bae') in 0.015083 seconds
+  Import took 0.018255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/Sprite3.png
+  artifactKey: Guid(6167b5d3cb29d52488e611c0cb2a074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/Sprite3.png using Guid(6167b5d3cb29d52488e611c0cb2a074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e97a1fe57e86056327bb78cf48b4a2') in 0.153021 seconds
+  Import took 0.158345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/Ripple.psd
+  artifactKey: Guid(652d48bb47aa3f9449283f5c365dc950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/Ripple.psd using Guid(652d48bb47aa3f9449283f5c365dc950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439e682dd60298307ab22370eb91ffb8') in 0.012044 seconds
+  Import took 0.016106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/Sprite4.png
+  artifactKey: Guid(74673f9934429b64cb1f34ae3f958274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Sprite/Sprite4.png using Guid(74673f9934429b64cb1f34ae3f958274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff70e7ca67b43e11fa907f67f981cd53') in 0.175281 seconds
+  Import took 0.181806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.958371 seconds.
+  path: Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Demo/JumpDust.prefab
+  artifactKey: Guid(4a4123fbc8b39d441868897a71d2b2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Demo/JumpDust.prefab using Guid(4a4123fbc8b39d441868897a71d2b2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb103bddbb5bd3d3383032920987efc8') in 0.026903 seconds
+  Import took 0.031243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Demo/RunStopDust.prefab
+  artifactKey: Guid(39afca3c109b26049a80bc07593eb271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Demo/RunStopDust.prefab using Guid(39afca3c109b26049a80bc07593eb271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bd9d868815d883ec749b55f8c97430') in 0.016444 seconds
+  Import took 0.020586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Demo/PrototypeHero.prefab
+  artifactKey: Guid(e481822248898d04e9808a3d3ca78e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Demo/PrototypeHero.prefab using Guid(e481822248898d04e9808a3d3ca78e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f14cb2e7fe469bcadac3585659e204') in 0.023851 seconds
+  Import took 0.027729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Demo/LandingDust.prefab
+  artifactKey: Guid(0b745be9abb3a6d4dadd8705950196d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Demo/LandingDust.prefab using Guid(0b745be9abb3a6d4dadd8705950196d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25494fe611f852f61870cac403cc49a') in 0.015157 seconds
+  Import took 0.019742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004876 seconds.
+  path: Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Demo/LandingDust.prefab
+  artifactKey: Guid(0b745be9abb3a6d4dadd8705950196d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Demo/LandingDust.prefab using Guid(0b745be9abb3a6d4dadd8705950196d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25494fe611f852f61870cac403cc49a') in 0.011815 seconds
+  Import took 0.016010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.186300 seconds.
+  path: Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentPalette_Prototype.prefab
+  artifactKey: Guid(ef06610bdafab1143b3e18004e4719b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentPalette_Prototype.prefab using Guid(ef06610bdafab1143b3e18004e4719b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6c9f556391734edc0449afeecf7473') in 0.008461 seconds
+  Import took 0.012120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_1.asset
+  artifactKey: Guid(2df9905a1cc5ae64fb4dedb716f51bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_1.asset using Guid(2df9905a1cc5ae64fb4dedb716f51bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4356cfb06f2db49484b301743815f4f') in 0.024812 seconds
+  Import took 0.028304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_2.asset
+  artifactKey: Guid(8be7de5514576614f9116d9da2150b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_2.asset using Guid(8be7de5514576614f9116d9da2150b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690db97556a85d14ad594df8d479398d') in 0.009626 seconds
+  Import took 0.012982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_3.asset
+  artifactKey: Guid(9af352b19c729fc478ec1f18e714585a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_3.asset using Guid(9af352b19c729fc478ec1f18e714585a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a667c63e2e9d2ef9028feaa46fe9edcf') in 0.011641 seconds
+  Import took 0.015330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_0.asset
+  artifactKey: Guid(b966ba8d7d465b6458e43bb42b6e0eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Environment/EnvironmentTiles_0.asset using Guid(b966ba8d7d465b6458e43bb42b6e0eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da0b46ed8603eabe01425b73f527951') in 0.011987 seconds
+  Import took 0.015319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.068982 seconds.
+  path: Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Sprites/Background.png
+  artifactKey: Guid(d9c5f41937dce6a4aaea431fd404415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Sprites/Background.png using Guid(d9c5f41937dce6a4aaea431fd404415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bbf01966c959d925182c1162385ea8') in 0.013718 seconds
+  Import took 0.016928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Sprites/EnvironmentTiles.png
+  artifactKey: Guid(7706d4b3f7d8d2e42b82d09010a105ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Sprites/EnvironmentTiles.png using Guid(7706d4b3f7d8d2e42b82d09010a105ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a97b70dbe19515dc5e98f25f44e70f') in 0.021365 seconds
+  Import took 0.025097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Sprites/PrototypeHero.png
+  artifactKey: Guid(300ea1a5869382b43bf6149aba92c4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Sprites/PrototypeHero.png using Guid(300ea1a5869382b43bf6149aba92c4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa9a261793e3ea2872d961bf23bfe9b') in 0.055694 seconds
+  Import took 0.060723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Sprites/PrototypeHero_noSword.png
+  artifactKey: Guid(6ff191a3ae957144abbb53d134cefed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Sprites/PrototypeHero_noSword.png using Guid(6ff191a3ae957144abbb53d134cefed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db6de58669aee8abcf70fd7cc9b69c8') in 0.015096 seconds
+  Import took 0.018274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Sprites/Dust.png
+  artifactKey: Guid(197dc101be73bc64ebf9c4837ee28a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Prototype Hero Demo - Pixel Art/Sprites/Dust.png using Guid(197dc101be73bc64ebf9c4837ee28a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9a7c88ae97f627cbcfd8bc0e6abadc') in 0.034659 seconds
+  Import took 0.039909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.713037 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/Coin.png
+  artifactKey: Guid(5ed5157cf45e6ee409511594fb89377b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/Coin.png using Guid(5ed5157cf45e6ee409511594fb89377b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5ed08957b58990521a13aecbb1a094') in 0.015226 seconds
+  Import took 0.018849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 13.png
+  artifactKey: Guid(4188406557eaca0488459eba94278250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 13.png using Guid(4188406557eaca0488459eba94278250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6218b480785b8ad2e608a92ff3d82d') in 0.022562 seconds
+  Import took 0.025727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 11.png
+  artifactKey: Guid(08e82f56b6f8f9e4da39977182df7f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 11.png using Guid(08e82f56b6f8f9e4da39977182df7f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce864b723675330ef4831dca3f6f8659') in 0.015173 seconds
+  Import took 0.019265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 9.png
+  artifactKey: Guid(3071611f52f355941ae108e3822562d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 9.png using Guid(3071611f52f355941ae108e3822562d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a29d85eb318911e4666435115b8468c') in 0.017364 seconds
+  Import took 0.021076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 5.png
+  artifactKey: Guid(93932efaf072000449ce4c111911cfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 5.png using Guid(93932efaf072000449ce4c111911cfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b28af05951615ec383262b8af900ee2') in 0.014888 seconds
+  Import took 0.018639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 14.png
+  artifactKey: Guid(7471dc94b1670e54b8f926859686caa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 14.png using Guid(7471dc94b1670e54b8f926859686caa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebe9a7473304bfc4084f11ef95df06e') in 0.014609 seconds
+  Import took 0.018085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 6.png
+  artifactKey: Guid(c925826c0552cf549a3f1123cae8db5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 6.png using Guid(c925826c0552cf549a3f1123cae8db5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02942fba873797725a9c2d852065a940') in 0.016538 seconds
+  Import took 0.019785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 10.png
+  artifactKey: Guid(bfdb508608e20c14a84a06ee5d00795b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 10.png using Guid(bfdb508608e20c14a84a06ee5d00795b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8602900017faf851da9f03f7bdcc6889') in 0.013122 seconds
+  Import took 0.018061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 1.png
+  artifactKey: Guid(284a590648cd2624cbd085c4f1627465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 1.png using Guid(284a590648cd2624cbd085c4f1627465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3124af50a687fd3fd30c879f0722ff58') in 0.017039 seconds
+  Import took 0.020483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 8.png
+  artifactKey: Guid(39bf764a4d5181d4ea6477506162098e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 8.png using Guid(39bf764a4d5181d4ea6477506162098e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14754004240d11ffa7f94819de15fb4') in 0.014039 seconds
+  Import took 0.017370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 7.png
+  artifactKey: Guid(01139edbf108bde4aa26ebc3d05c3025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 7.png using Guid(01139edbf108bde4aa26ebc3d05c3025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0043ed2af794dc04df5e08089f202a2e') in 0.013850 seconds
+  Import took 0.018026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 4.png
+  artifactKey: Guid(829702d123e43a54c80bc02a11288a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 4.png using Guid(829702d123e43a54c80bc02a11288a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e417a0f63a21e9401889917a19f550d') in 0.015809 seconds
+  Import took 0.018975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 12.png
+  artifactKey: Guid(6ffad87630735e04d83408305dcc75b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 12.png using Guid(6ffad87630735e04d83408305dcc75b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0509b8bc85356ac62b8b5125551772fd') in 0.013523 seconds
+  Import took 0.017226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 3.png
+  artifactKey: Guid(01f2715068a32f44a99ba474fbf74cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 3.png using Guid(01f2715068a32f44a99ba474fbf74cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59408aa24b549f89cfc88d95a8d19652') in 0.015534 seconds
+  Import took 0.018803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 2.png
+  artifactKey: Guid(49b76ee0d3655ee4c8402582c1c02c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 2.png using Guid(49b76ee0d3655ee4c8402582c1c02c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9991fc45fb2794c6903c61d4007f3b') in 0.014479 seconds
+  Import took 0.018184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 16.png
+  artifactKey: Guid(570f426f740c2c5499e2f9670c12598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 16.png using Guid(570f426f740c2c5499e2f9670c12598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204f6a7598bdfc645fa1af7dca0d436f') in 0.014903 seconds
+  Import took 0.019010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 15.png
+  artifactKey: Guid(27f6b32c91a50ae4088361bfd738dd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/2x/image 15.png using Guid(27f6b32c91a50ae4088361bfd738dd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8464bf49b0cfdda8954510d665321002') in 0.013370 seconds
+  Import took 0.017401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.697621 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/Coin.png
+  artifactKey: Guid(c1ce1be65fa901744898a224b57aa5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/Coin.png using Guid(c1ce1be65fa901744898a224b57aa5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2914c34a94f09b903942291bcc5bbf78') in 0.018202 seconds
+  Import took 0.021847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 15.png
+  artifactKey: Guid(6eba1eae469401f4cadee1e9007944b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 15.png using Guid(6eba1eae469401f4cadee1e9007944b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead1d6a7d1755833d0b335fa74a6fd11') in 0.018899 seconds
+  Import took 0.022133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 4.png
+  artifactKey: Guid(76335bd232db0aa44948af7af403124d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 4.png using Guid(76335bd232db0aa44948af7af403124d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7c638a81b416563b5044196de5582b') in 0.015861 seconds
+  Import took 0.018994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 6.png
+  artifactKey: Guid(65268f959ff4e6147bd5e0d3616168de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 6.png using Guid(65268f959ff4e6147bd5e0d3616168de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6302ab7d4a3ee42f2852e1887ae314d') in 0.020067 seconds
+  Import took 0.025304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 13.png
+  artifactKey: Guid(91340853b350e9146973723344eb39fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 13.png using Guid(91340853b350e9146973723344eb39fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85d51574c02a1d3d647347b685cff43') in 0.036515 seconds
+  Import took 0.042228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 5.png
+  artifactKey: Guid(a9a0070104aa9b0438d7e73d4117f210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 5.png using Guid(a9a0070104aa9b0438d7e73d4117f210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85ee0252ea641722d8722b964367028') in 0.018418 seconds
+  Import took 0.024242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 14.png
+  artifactKey: Guid(ec167f594ff339f49b8dc3e2c78a7d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 14.png using Guid(ec167f594ff339f49b8dc3e2c78a7d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492651590f2cfc2676e81dddda4b375d') in 0.021201 seconds
+  Import took 0.027425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 9.png
+  artifactKey: Guid(71362eeb02d1e8c4192243e61f5a8f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 9.png using Guid(71362eeb02d1e8c4192243e61f5a8f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4e7d54dae30b9fdb88acf0d56b6b01') in 0.013872 seconds
+  Import took 0.021121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 16.png
+  artifactKey: Guid(f63c5baf04d0c3442b43bf7e708a8647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 16.png using Guid(f63c5baf04d0c3442b43bf7e708a8647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2d1037f8afae906c5608570348d550') in 0.016056 seconds
+  Import took 0.020914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 2.png
+  artifactKey: Guid(ac79edb4a68fd7a4da7bc63aa65ceda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 2.png using Guid(ac79edb4a68fd7a4da7bc63aa65ceda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa5a5ed292694a61e44c298dd33a25a') in 0.016222 seconds
+  Import took 0.019726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 3.png
+  artifactKey: Guid(0a78cf85f9051204db2d29b987fdbf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 3.png using Guid(0a78cf85f9051204db2d29b987fdbf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a0a2d614a0add72657ee4156dc0104') in 0.013796 seconds
+  Import took 0.017032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 10.png
+  artifactKey: Guid(dfa73ca92daccb94b890dc4e3f5b5fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 10.png using Guid(dfa73ca92daccb94b890dc4e3f5b5fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d58f4694fd5262b7c268c147b34a5d5') in 0.014758 seconds
+  Import took 0.018112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 12.png
+  artifactKey: Guid(798cfdc6e87910449ae9c27bfd993a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 12.png using Guid(798cfdc6e87910449ae9c27bfd993a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d5a4a60f16c694fa9376b25fa291c0') in 0.012220 seconds
+  Import took 0.015415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 8.png
+  artifactKey: Guid(86ed6659d27a7fe4295215628f43dfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 8.png using Guid(86ed6659d27a7fe4295215628f43dfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a271b15c8fed28e5f6d20a0608ca0f') in 0.015658 seconds
+  Import took 0.019049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 7.png
+  artifactKey: Guid(0c5c22c50752aee428a39dd980122f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 7.png using Guid(0c5c22c50752aee428a39dd980122f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45476cbf4bdb6ba2420272982c7e7956') in 0.012325 seconds
+  Import took 0.015915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 1.png
+  artifactKey: Guid(0ca730ce7de6c6a44a736e6d5fb08ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 1.png using Guid(0ca730ce7de6c6a44a736e6d5fb08ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21277f1f135491015cbecf540f744539') in 0.015057 seconds
+  Import took 0.019360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 11.png
+  artifactKey: Guid(46f5e58d5081bc64abc2ab3babe5b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/BayatGames/Free Platform Game Assets/Coin Animation/png/4x/image 11.png using Guid(46f5e58d5081bc64abc2ab3babe5b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d39a8178afb434a50a3a4209b5cee2') in 0.018611 seconds
+  Import took 0.022615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.193028 seconds.
+  path: Assets/Characters/Prototype/Prototype.prefab
+  artifactKey: Guid(4494cfd04b81bd1428fd02caad918e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Prototype/Prototype.prefab using Guid(4494cfd04b81bd1428fd02caad918e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b00f0f26572c1cbb9a56c3fcbb3741') in 0.016814 seconds
+  Import took 0.027939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Characters/Prototype/PrototypeHero_noSwordSheet.png
+  artifactKey: Guid(d9980667059140248aa4bcc6932f665e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Prototype/PrototypeHero_noSwordSheet.png using Guid(d9980667059140248aa4bcc6932f665e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277f308af3ea79e9fd0eb9091c0cfa9d') in 0.095266 seconds
+  Import took 0.099805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.013346 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art
+  artifactKey: Guid(19a07ae1adec2cf4993e4acda322f525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art using Guid(19a07ae1adec2cf4993e4acda322f525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11627f0ef71e1e69d03b274b0c97abe1') in 0.008398 seconds
+  Import took 0.011907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.076329 seconds.
+  path: Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Animation
+  artifactKey: Guid(bfcc1ed18eeacb147a890c74863f3d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Free Asset - 2D Handcrafted Art/Animation using Guid(bfcc1ed18eeacb147a890c74863f3d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67c145dd2511d9494404ecea3f57447') in 0.013588 seconds
+  Import took 0.017035 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
