@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Programming_Manny\scr_ranged_enemy.cs" />
      <Compile Include="Assets\ParryCollider.cs" />
      <Compile Include="Assets\Imported Assets\Bandits - Pixel Art\Demo\Bandit.cs" />
      <Compile Include="Assets\Scripts\ParallaxScrolling.cs" />
@@ -52,6 +53,7 @@
      <Compile Include="Assets\TransitionTwoBehavior.cs" />
      <Compile Include="Assets\TransitionOneBehavior.cs" />
      <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\PrototypeHeroDemo.cs" />
+     <Compile Include="Assets\Programming_Manny\ranged_enem_anim_event.cs" />
      <Compile Include="Assets\Scripts\CharacterScript\PlayerCombat.cs" />
      <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\Dust_DestroyEvent.cs" />
      <Compile Include="Assets\Scripts\CharacterScript\Enemy.cs" />
