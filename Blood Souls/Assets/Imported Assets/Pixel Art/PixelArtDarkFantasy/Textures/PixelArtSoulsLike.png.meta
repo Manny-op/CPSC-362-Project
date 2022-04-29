@@ -1,0 +1,1838 @@
+fileFormatVersion: 2
+guid: adba5b573c161094bb08e30990e9886d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4200265509415715090
+    second: PixelArtSoulsLike_0
+  - first:
+      213: -8277897617598683507
+    second: PixelArtSoulsLike_1
+  - first:
+      213: 8060835748959759575
+    second: PixelArtSoulsLike_2
+  - first:
+      213: -7128073960820371276
+    second: PixelArtSoulsLike_3
+  - first:
+      213: 7315016955073514577
+    second: PixelArtSoulsLike_4
+  - first:
+      213: 8935860061992119599
+    second: PixelArtSoulsLike_5
+  - first:
+      213: 237898391130360032
+    second: PixelArtSoulsLike_6
+  - first:
+      213: 5586967105960488076
+    second: PixelArtSoulsLike_7
+  - first:
+      213: -5167184705072385288
+    second: PixelArtSoulsLike_8
+  - first:
+      213: -8810237367082363924
+    second: PixelArtSoulsLike_9
+  - first:
+      213: 3624730849556183412
+    second: PixelArtSoulsLike_10
+  - first:
+      213: -3599146466309817631
+    second: PixelArtSoulsLike_11
+  - first:
+      213: 6496149142702971968
+    second: PixelArtSoulsLike_12
+  - first:
+      213: -4737103989077691266
+    second: PixelArtSoulsLike_13
+  - first:
+      213: 445689858897072650
+    second: PixelArtSoulsLike_14
+  - first:
+      213: 7470789036216793290
+    second: PixelArtSoulsLike_15
+  - first:
+      213: -2597098106907304340
+    second: PixelArtSoulsLike_16
+  - first:
+      213: 760463240782474388
+    second: PixelArtSoulsLike_17
+  - first:
+      213: 4057994964129972433
+    second: PixelArtSoulsLike_18
+  - first:
+      213: -847997602340335950
+    second: PixelArtSoulsLike_19
+  - first:
+      213: -4882351827922048747
+    second: PixelArtSoulsLike_20
+  - first:
+      213: 6740297156151884589
+    second: PixelArtSoulsLike_21
+  - first:
+      213: -7954611551024015924
+    second: PixelArtSoulsLike_22
+  - first:
+      213: -4958885952857466936
+    second: PixelArtSoulsLike_23
+  - first:
+      213: 1320686986569588899
+    second: PixelArtSoulsLike_24
+  - first:
+      213: -9010272013148607078
+    second: PixelArtSoulsLike_25
+  - first:
+      213: 6240833604907609076
+    second: PixelArtSoulsLike_26
+  - first:
+      213: 6727175481169478223
+    second: PixelArtSoulsLike_27
+  - first:
+      213: 2295802544690716469
+    second: PixelArtSoulsLike_28
+  - first:
+      213: 2190622267865975380
+    second: PixelArtSoulsLike_29
+  - first:
+      213: -7297225868725297277
+    second: PixelArtSoulsLike_30
+  - first:
+      213: -6098957479762964763
+    second: PixelArtSoulsLike_31
+  - first:
+      213: 4463735326826868596
+    second: PixelArtSoulsLike_32
+  - first:
+      213: -7926151293848394446
+    second: PixelArtSoulsLike_33
+  - first:
+      213: 7319492901244662147
+    second: PixelArtSoulsLike_34
+  - first:
+      213: 7184607598417651281
+    second: PixelArtSoulsLike_35
+  - first:
+      213: 5790642456839754520
+    second: PixelArtSoulsLike_36
+  - first:
+      213: 6890148099369110258
+    second: PixelArtSoulsLike_37
+  - first:
+      213: 430399590981809435
+    second: PixelArtSoulsLike_38
+  - first:
+      213: 6070155190913728998
+    second: PixelArtSoulsLike_39
+  - first:
+      213: 4927121881166248143
+    second: PixelArtSoulsLike_40
+  - first:
+      213: -1566364135250982641
+    second: PixelArtSoulsLike_41
+  - first:
+      213: -4472316263506636291
+    second: PixelArtSoulsLike_42
+  - first:
+      213: 4342737500750929292
+    second: PixelArtSoulsLike_43
+  - first:
+      213: 8390009328758615163
+    second: PixelArtSoulsLike_44
+  - first:
+      213: 817577244082544581
+    second: PixelArtSoulsLike_45
+  - first:
+      213: -4426441191089482456
+    second: PixelArtSoulsLike_46
+  - first:
+      213: -533971598020887575
+    second: PixelArtSoulsLike_47
+  - first:
+      213: -6181286991731988812
+    second: PixelArtSoulsLike_48
+  - first:
+      213: 5290613950177650174
+    second: PixelArtSoulsLike_49
+  - first:
+      213: -1625391122166949410
+    second: PixelArtSoulsLike_50
+  - first:
+      213: 1323896787143180557
+    second: PixelArtSoulsLike_51
+  - first:
+      213: 6091728983538951832
+    second: PixelArtSoulsLike_52
+  - first:
+      213: 2617962373129045958
+    second: PixelArtSoulsLike_53
+  - first:
+      213: -6936464915974820265
+    second: PixelArtSoulsLike_54
+  - first:
+      213: -713205877021546332
+    second: PixelArtSoulsLike_0
+  - first:
+      213: 5032526342672319447
+    second: PixelArtSoulsLike_1
+  - first:
+      213: 7191429275827587137
+    second: PixelArtSoulsLike_2
+  - first:
+      213: -1254597617912499770
+    second: PixelArtSoulsLike_3
+  - first:
+      213: 3207612346346117639
+    second: PixelArtSoulsLike_4
+  - first:
+      213: 4879287913594272852
+    second: PixelArtSoulsLike_5
+  - first:
+      213: 3043688408914006717
+    second: PixelArtSoulsLike_6
+  - first:
+      213: -220813836592040052
+    second: PixelArtSoulsLike_7
+  - first:
+      213: 8250981699391587942
+    second: PixelArtSoulsLike_8
+  - first:
+      213: 1723084085009009139
+    second: PixelArtSoulsLike_9
+  - first:
+      213: -1913104643668233652
+    second: PixelArtSoulsLike_10
+  - first:
+      213: -2350116031245743488
+    second: PixelArtSoulsLike_11
+  - first:
+      213: -1662713590593700484
+    second: PixelArtSoulsLike_12
+  - first:
+      213: 2986501398347108476
+    second: PixelArtSoulsLike_13
+  - first:
+      213: -2569220023701798589
+    second: PixelArtSoulsLike_14
+  - first:
+      213: 1819155474367712401
+    second: PixelArtSoulsLike_15
+  - first:
+      213: 1483257719934751311
+    second: PixelArtSoulsLike_16
+  - first:
+      213: -1036284061172703760
+    second: PixelArtSoulsLike_17
+  - first:
+      213: 1194630043528567192
+    second: PixelArtSoulsLike_18
+  - first:
+      213: 2468590937136869632
+    second: PixelArtSoulsLike_19
+  - first:
+      213: -6400798517324537288
+    second: PixelArtSoulsLike_20
+  - first:
+      213: 1774824085515601186
+    second: PixelArtSoulsLike_21
+  - first:
+      213: -3450538025816757673
+    second: PixelArtSoulsLike_22
+  - first:
+      213: 4333135968997431094
+    second: PixelArtSoulsLike_23
+  - first:
+      213: 7426894987489768603
+    second: PixelArtSoulsLike_24
+  - first:
+      213: -6787039694907678094
+    second: PixelArtSoulsLike_25
+  - first:
+      213: -3170216602770165867
+    second: PixelArtSoulsLike_26
+  - first:
+      213: 330282038488539684
+    second: PixelArtSoulsLike_27
+  - first:
+      213: -8434373090658958655
+    second: PixelArtSoulsLike_28
+  - first:
+      213: 6408777521008492031
+    second: PixelArtSoulsLike_29
+  - first:
+      213: -2425956182787418486
+    second: PixelArtSoulsLike_30
+  - first:
+      213: 3770067135604345400
+    second: PixelArtSoulsLike_31
+  - first:
+      213: 5668546977499101455
+    second: PixelArtSoulsLike_32
+  - first:
+      213: -8212401678308121700
+    second: PixelArtSoulsLike_33
+  - first:
+      213: -5002802911166467845
+    second: PixelArtSoulsLike_34
+  - first:
+      213: 4322581004715236413
+    second: PixelArtSoulsLike_35
+  - first:
+      213: -1245060707112479674
+    second: PixelArtSoulsLike_36
+  - first:
+      213: 7562020171145857310
+    second: PixelArtSoulsLike_37
+  - first:
+      213: -4549366404512098773
+    second: PixelArtSoulsLike_38
+  - first:
+      213: 2656404486066318857
+    second: PixelArtSoulsLike_39
+  - first:
+      213: -2995867307490191145
+    second: PixelArtSoulsLike_40
+  - first:
+      213: -5609805912688107606
+    second: PixelArtSoulsLike_41
+  - first:
+      213: 7032474691242487186
+    second: PixelArtSoulsLike_42
+  - first:
+      213: -3783434684172302132
+    second: PixelArtSoulsLike_43
+  - first:
+      213: -6595533201133266350
+    second: PixelArtSoulsLike_44
+  - first:
+      213: -8757084569754602265
+    second: PixelArtSoulsLike_45
+  - first:
+      213: 2701792022817207675
+    second: PixelArtSoulsLike_46
+  - first:
+      213: 67942719970813101
+    second: PixelArtSoulsLike_47
+  - first:
+      213: 4659642830614705495
+    second: PixelArtSoulsLike_48
+  - first:
+      213: 9032103962414300699
+    second: PixelArtSoulsLike_49
+  - first:
+      213: -121104095001557146
+    second: PixelArtSoulsLike_50
+  - first:
+      213: 6847551871211613079
+    second: PixelArtSoulsLike_51
+  - first:
+      213: -108769113023570134
+    second: PixelArtSoulsLike_52
+  - first:
+      213: -1136470146680743372
+    second: PixelArtSoulsLike_53
+  - first:
+      213: 111035879558677019
+    second: PixelArtSoulsLike_54
+  - first:
+      213: 1757851165540121193
+    second: PixelArtSoulsLike_55
+  - first:
+      213: -5353577811508266142
+    second: PixelArtSoulsLike_56
+  - first:
+      213: 6524782128500304837
+    second: PixelArtSoulsLike_57
+  - first:
+      213: 6215557468057326106
+    second: PixelArtSoulsLike_55
+  - first:
+      213: -547772395302668965
+    second: PixelArtSoulsLike_56
+  - first:
+      213: -720546922242875333
+    second: PixelArtSoulsLike_57
+  - first:
+      213: -1455746991558734043
+    second: PixelArtSoulsLike_58
+  - first:
+      213: 4536146658160308776
+    second: PixelArtSoulsLike_59
+  - first:
+      213: -5048526034481548266
+    second: PixelArtSoulsLike_60
+  - first:
+      213: 5873559886250153318
+    second: PixelArtSoulsLike_61
+  - first:
+      213: 4588468156226070702
+    second: PixelArtSoulsLike_62
+  - first:
+      213: 2000011769796975457
+    second: PixelArtSoulsLike_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8e868980f2a16f0800000000000000
+      internalID: -713205877021546332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d387c19b0027d540800000000000000
+      internalID: 5032526342672319447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1484c0513d61dc360800000000000000
+      internalID: 7191429275827587137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c136481d16c69ee0800000000000000
+      internalID: -1254597617912499770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a1e113f6ab38c20800000000000000
+      internalID: 3207612346346117639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cb4ae7186b6b340800000000000000
+      internalID: 4879287913594272852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db21b445b7a5d3a20800000000000000
+      internalID: 3043688408914006717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87b07c4cf28fecf0800000000000000
+      internalID: -220813836592040052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6660c78d320618270800000000000000
+      internalID: 8250981699391587942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9471598df99e710800000000000000
+      internalID: 1723084085009009139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42310076794375e0800000000000000
+      internalID: -1913104643668233652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a85a8cbe5b26fd0800000000000000
+      internalID: -2350116031245743488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7db27d7ccadce8e0800000000000000
+      internalID: -1662713590593700484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70dfa9d23f227920800000000000000
+      internalID: 2986501398347108476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3410f61300c485cd0800000000000000
+      internalID: -2569220023701798589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c05e00440fe3910800000000000000
+      internalID: 1819155474367712401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f421113a907959410800000000000000
+      internalID: 1483257719934751311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdd66703216e91f0800000000000000
+      internalID: -1036284061172703760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8999786f1bd249010800000000000000
+      internalID: 1194630043528567192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001bacfc062324220800000000000000
+      internalID: 2468590937136869632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832260059abcb27a0800000000000000
+      internalID: -6400798517324537288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22507f33a1171a810800000000000000
+      internalID: 1774824085515601186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ae63f72f93d10d0800000000000000
+      internalID: -3450538025816757673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6375f83b434622c30800000000000000
+      internalID: 4333135968997431094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94f47944a1a11760800000000000000
+      internalID: 7426894987489768603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2726d845b579fc1a0800000000000000
+      internalID: -6787039694907678094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fa6dadbc02104d0800000000000000
+      internalID: -3170216602770165867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4222dcb93c5659400800000000000000
+      internalID: 330282038488539684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2c82c7c5613fa80800000000000000
+      internalID: -8434373090658958655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd3830433d80f850800000000000000
+      internalID: 6408777521008492031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a861b4c74b5455ed0800000000000000
+      internalID: -2425956182787418486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a421dc518f15430800000000000000
+      internalID: 3770067135604345400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09b27a5179baae40800000000000000
+      internalID: 5668546977499101455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c936f9b4f20b70e80800000000000000
+      internalID: -8212401678308121700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0f1ae1249729ab0800000000000000
+      internalID: -5002802911166467845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c17e29584ecfb30800000000000000
+      internalID: 4322581004715236413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64493cc22e7a8bee0800000000000000
+      internalID: -1245060707112479674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19cc75c741b1f860800000000000000
+      internalID: 7562020171145857310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26d5f1db576dd0c0800000000000000
+      internalID: -4549366404512098773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eacbb4ec17dd420800000000000000
+      internalID: 2656404486066318857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d857de7e8a8c66d0800000000000000
+      internalID: -2995867307490191145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafd6539e37f522b0800000000000000
+      internalID: -5609805912688107606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dee67d87e589160800000000000000
+      internalID: 7032474691242487186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc88403433a8e7bc0800000000000000
+      internalID: -3783434684172302132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a182a8f75f774a0800000000000000
+      internalID: -6595533201133266350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_45
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4f8b71bf5987680800000000000000
+      internalID: -8757084569754602265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75f001b781be7520800000000000000
+      internalID: 2701792022817207675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da42fe83b8161f000800000000000000
+      internalID: 67942719970813101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7553cf277706aa040800000000000000
+      internalID: 4659642830614705495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e3a1e13ba785d70800000000000000
+      internalID: 9032103962414300699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667469c9770c15ef0800000000000000
+      internalID: -121104095001557146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b21a0a524670f50800000000000000
+      internalID: 6847551871211613079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f12b761139d7ef0800000000000000
+      internalID: -108769113023570134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a12414c627a30f0800000000000000
+      internalID: -1136470146680743372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b120b6e4b8a7a8100800000000000000
+      internalID: 111035879558677019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a125594f598124650800000000000000
+      internalID: 6215557468057326106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b553830a8ebe568f0800000000000000
+      internalID: -547772395302668965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3066bf446a1006f0800000000000000
+      internalID: -720546922242875333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f4c45f2d52ccbe0800000000000000
+      internalID: -1455746991558734043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82278b02a51a3fe30800000000000000
+      internalID: 4536146658160308776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6147a63e15800f9b0800000000000000
+      internalID: -5048526034481548266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6659cead893138150800000000000000
+      internalID: 5873559886250153318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_62
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8eb033a738daf30800000000000000
+      internalID: 4588468156226070702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelArtSoulsLike_63
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b595dab1871cb10800000000000000
+      internalID: 2000011769796975457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 505139c36e0caf740b91234ad40a07bd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
