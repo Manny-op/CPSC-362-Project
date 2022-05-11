@@ -79,7 +79,7 @@ public class Boss : MonoBehaviour
 		}
         if (Health.health <= 0)
 		{
-            // animator.SetBool("oneHP", false);
+             animator.SetBool("oneHP", false);
 			animator.SetBool("isDead", true);
 		}
     }

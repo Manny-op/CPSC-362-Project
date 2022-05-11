@@ -9,6 +9,8 @@ TagManager:
   - EnemyAttack
   - Boss
   - BossHead
+  - Entrance
+  - InsidePortal
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - Enemy
   - Camera
   - Parriable
-  - 
+  - Portal
   - 
   - 
   - 

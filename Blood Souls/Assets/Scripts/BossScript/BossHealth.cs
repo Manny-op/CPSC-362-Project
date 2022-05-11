@@ -33,7 +33,7 @@ public class BossHealth : MonoBehaviour
 		if(tickDown!= null) { StopCoroutine(tickDown); }
 		StartCoroutine(healthBar.HealthTickDown());
 		if(!beheaded) { health = Mathf.Clamp(health, 1, maxHealth); }
-		if(health == 1) { canExecute = true;  }
+		if(health == 1) { canExecute = true;  this.GetComponent<Animator>().SetBool("oneHP",true);}
 	}
 
 	void Die()

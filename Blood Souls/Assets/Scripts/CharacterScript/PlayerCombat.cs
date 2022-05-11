@@ -10,6 +10,7 @@ public class PlayerCombat : MonoBehaviour
     public GameObject parryLocation;
     public TimeManager timeManager;
 
+    public bool isStanding;
     public bool canRiposte = false;
     public bool activateRiposteWindow = false;
     Enemy enemyCharacter;
@@ -174,7 +175,7 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    public void Execute()
+    public void Execute(int dmg)
     {
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
@@ -182,7 +183,7 @@ public class PlayerCombat : MonoBehaviour
         {
             if (enemy.gameObject.tag == "Enemy")
             {
-                enemy.GetComponent<Enemy>().takeDmg(10);
+                enemy.GetComponent<Enemy>().takeDmg(dmg);
                 Debug.Log("Executed " + enemy.name);
             }
             else if(enemy.gameObject.tag == "BossHead")
@@ -207,7 +208,7 @@ public class PlayerCombat : MonoBehaviour
 
         if(tickDown!= null) { StopCoroutine(tickDown); }
 
-        StartCoroutine(Stats.HealthTickDown());
+        tickDown = StartCoroutine(Stats.HealthTickDown());
         if(playerHealth <= 0)
         {
             Die();
@@ -247,5 +248,6 @@ public class PlayerCombat : MonoBehaviour
             canReceiveInput = false;
         }
     }
+
 
 }

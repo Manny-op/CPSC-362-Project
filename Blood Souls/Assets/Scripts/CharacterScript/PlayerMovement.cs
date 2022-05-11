@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
 
     bool crouch = false;
 
+    public bool isInteracting = false;
+
     public float dashDistance = 15f;
     public float vdashDistance = 15f;
     public float rollDist = 10f;
@@ -37,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
+        Interact();
         if(isAttacking || isParrying)
         {
             horizontalMove = 0;
@@ -117,6 +120,12 @@ public class PlayerMovement : MonoBehaviour
             
         }
         animator.SetFloat("yVel", m_Rigidbody2D.velocity.y);
+    }
+
+    public void Interact()
+    {
+        if(Input.GetKeyDown(KeyCode.F)) { isInteracting = true; Debug.Log(isInteracting);}
+        else if (Input.GetKeyUp(KeyCode.F)) {isInteracting = false;}
     }
 
     public void setIsAttacking()

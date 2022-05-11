@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class HealthBarScript : MonoBehaviour
 {
     public static HealthBarScript instance;
-
+    private Coroutine tickDown;
     private Coroutine regen;
     private WaitForSeconds regenTick = new WaitForSeconds(0.01f);
     public PlayerCombat player;
@@ -23,6 +23,8 @@ public class HealthBarScript : MonoBehaviour
     private float hurtSpeed = 0.005f;
 
     public Image HEffectImage;
+
+    public Image SEffectImage;
 
     //here would be where to use class from player.
 
@@ -88,6 +90,7 @@ public class HealthBarScript : MonoBehaviour
         while(player.playerStamina < maxStamina)
         {
             player.playerStamina += maxStamina / 100;
+            SEffectImage.fillAmount = staminaBar.value;
             yield return regenTick;
         }
         regen = null;
@@ -100,6 +103,16 @@ public class HealthBarScript : MonoBehaviour
         while(HEffectImage.fillAmount > healthBar.value)
         {
             HEffectImage.fillAmount -= hurtSpeed;
+            yield return regenTick;
+        }
+    }
+    public IEnumerator StaminaTickDown()
+    {
+        yield return new WaitForSeconds(1);
+
+        while(SEffectImage.fillAmount > staminaBar.value)
+        {
+            SEffectImage.fillAmount -= hurtSpeed;
             yield return regenTick;
         }
     }
@@ -122,6 +135,10 @@ public class HealthBarScript : MonoBehaviour
         if(player.playerStamina - amt >= 0)
         {
             player.playerStamina -= amt;
+
+            if(tickDown!= null) { StopCoroutine(tickDown); }
+
+            StartCoroutine(StaminaTickDown());
 
             if(regen != null) { StopCoroutine(regen); }
 
