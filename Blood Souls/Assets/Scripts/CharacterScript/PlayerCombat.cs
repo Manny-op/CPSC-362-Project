@@ -46,6 +46,7 @@ public class PlayerCombat : MonoBehaviour
 
     public bool isInvincible = true;
 
+    public bool airAttackOnce = true;
     void Awake()
     {
         instance = this;
@@ -59,6 +60,7 @@ public class PlayerCombat : MonoBehaviour
         parryCollider.transform.position = parryLocation.transform.position;
         Attack();
         AirAttack();
+        resetAirAttack();
         Parry();
         Riposte();
         if(activateRiposteWindow)
@@ -98,7 +100,7 @@ public class PlayerCombat : MonoBehaviour
 
     public void AirAttack()
     {
-        if (Input.GetButtonDown("Fire2") && playerStamina > 0 && !movement.isParrying && animator.GetBool("isJumping"))
+        if (airAttackOnce && Input.GetButtonDown("Fire2") && playerStamina > 0 && !movement.isParrying && animator.GetBool("isJumping"))
         {
             if (canReceiveInput)
             {
@@ -111,6 +113,12 @@ public class PlayerCombat : MonoBehaviour
             }
         }
 
+    }
+
+    public void resetAirAttack()
+    {
+        if(animator.GetComponent<CharacterController2D>().m_Grounded)
+            {airAttackOnce = true;}
     }
 
     public void Parry()
@@ -239,6 +247,5 @@ public class PlayerCombat : MonoBehaviour
             canReceiveInput = false;
         }
     }
-
 
 }

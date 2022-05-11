@@ -362,10 +362,10 @@ MonoBehaviour:
   attackRange: 0.5
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   parryLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   attackRate: 2
   attackDamage: 40
   executeDamage: 100
@@ -375,6 +375,7 @@ MonoBehaviour:
   maxStamina: 100
   canReceiveInput: 0
   InputReceived: 0
+  isInvincible: 1
 --- !u!1 &229871690
 GameObject:
   m_ObjectHideFlags: 0

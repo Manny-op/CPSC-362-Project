@@ -11,6 +11,7 @@ public class AirAttack : StateMachineBehaviour
     {
        rb = animator.GetComponent<Rigidbody2D>();
        gravity = rb.gravityScale;
+       PlayerCombat.instance.airAttackOnce = false;
 
     }
 
