@@ -8,6 +8,9 @@ public class scr_melee_Enem : MonoBehaviour
     public GameObject attackBox;
     float timer;
     public float maxTimer;
+    public Animator animator;
+    public SpriteRenderer sprite;
+    public Rigidbody2D rb;
 
     [SerializeField]
     private int healthPoints;
@@ -49,7 +52,17 @@ public class scr_melee_Enem : MonoBehaviour
         if (healthPoints <=0)
         {
             Destroy(gameObject);
-        }        
+        }
+        Debug.Log(rb.velocity.magnitude);
+        //Flipping time.
+        if(rb.velocity.magnitude < 0)
+        {
+            gameObject.transform.localRotation = new Quaternion(0, -180, 0, 0);
+        }
+        if(rb.velocity.magnitude > 0)
+        {
+            gameObject.transform.localRotation = new Quaternion(0,180,0, 0);
+        }
     }
     // using fixed update as it will sync better compared to regular update
     private void FixedUpdate()
@@ -84,10 +97,11 @@ public class scr_melee_Enem : MonoBehaviour
 
     void Attack()
     {
+        animator.SetBool("IsAttack", true);
         float x = transform.position.x;
         float y = transform.position.y;
         float z = transform.position.z;
-        GameObject hitBox = Instantiate(attackBox, new Vector3(x, y, z), Quaternion.identity);
+        //GameObject hitBox = Instantiate(attackBox, new Vector3(x, y, z), Quaternion.identity);
     }
 
 }

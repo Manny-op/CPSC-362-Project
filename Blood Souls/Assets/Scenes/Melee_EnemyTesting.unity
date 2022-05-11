@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!95 &19814538 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9182872767668748469, guid: c22176749986c014c8a5b2092744ce30, type: 3}
+  m_PrefabInstance: {fileID: 749183736685913313}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &222681781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -579,6 +584,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1375513847 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6178093954587943064, guid: c22176749986c014c8a5b2092744ce30, type: 3}
+  m_PrefabInstance: {fileID: 749183736685913313}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1420141860
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,6 +1396,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!50 &1891903443 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 749183736436156949, guid: c22176749986c014c8a5b2092744ce30, type: 3}
+  m_PrefabInstance: {fileID: 749183736685913313}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1930081687
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,6 +1442,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Test Melee Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 749183736436156946, guid: c22176749986c014c8a5b2092744ce30, type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1891903443}
+    - target: {fileID: 749183736436156946, guid: c22176749986c014c8a5b2092744ce30, type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 1375513847}
+    - target: {fileID: 749183736436156946, guid: c22176749986c014c8a5b2092744ce30, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 19814538}
     - target: {fileID: 749183736436156947, guid: c22176749986c014c8a5b2092744ce30, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1469,6 +1496,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 749183736436156947, guid: c22176749986c014c8a5b2092744ce30, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953047680221434613, guid: c22176749986c014c8a5b2092744ce30, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 19814538}
+    - target: {fileID: 6178093954587943064, guid: c22176749986c014c8a5b2092744ce30, type: 3}
+      propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

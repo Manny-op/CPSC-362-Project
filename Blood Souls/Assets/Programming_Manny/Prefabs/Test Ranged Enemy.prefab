@@ -129,9 +129,10 @@ GameObject:
   - component: {fileID: 8104336790280609369}
   - component: {fileID: 8104336790280609370}
   - component: {fileID: 8104336790280609371}
+  - component: {fileID: 7406165589350225756}
   m_Layer: 0
   m_Name: Test Ranged Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -268,3 +269,29 @@ MonoBehaviour:
   stamina: 5
   movementSpeed: 2
   attackDamage: 1
+--- !u!114 &7406165589350225756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8104336790280609372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30bceab9374a1734b8c2101aeb634afa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  animator: {fileID: 9013233829792756624}
+  isRiposted: 0
+  canBeParried: 0
+  maxHealth: 100
+  currentHealth: 0
+  attackPoint: {fileID: 0}
+  attackRange: 0.5
+  attackDamage: 15
+  isParried: 0
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  healthBar: {fileID: 0}
