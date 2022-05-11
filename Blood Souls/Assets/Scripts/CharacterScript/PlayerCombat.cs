@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
+
+    private Coroutine tickDown;
     public Collider2D parryCollider;
     public GameObject parryLocation;
     public TimeManager timeManager;
@@ -42,6 +44,8 @@ public class PlayerCombat : MonoBehaviour
 
     bool parrySuccess = false;
 
+    public bool isInvincible = true;
+
     void Awake()
     {
         instance = this;
@@ -54,6 +58,7 @@ public class PlayerCombat : MonoBehaviour
     {
         parryCollider.transform.position = parryLocation.transform.position;
         Attack();
+        AirAttack();
         Parry();
         Riposte();
         if(activateRiposteWindow)
@@ -76,7 +81,24 @@ public class PlayerCombat : MonoBehaviour
 
     public void Attack()
     {
-        if (Input.GetButtonDown("Fire1") && playerStamina > 0 && !movement.isParrying)
+        if (Input.GetButtonDown("Fire1") && playerStamina > 0 && !movement.isParrying && !animator.GetBool("isJumping"))
+        {
+            if (canReceiveInput)
+            {
+                InputReceived = true;
+                canReceiveInput = false;
+            }
+            else
+            {
+                return;
+            }
+        }
+
+    }
+
+    public void AirAttack()
+    {
+        if (Input.GetButtonDown("Fire2") && playerStamina > 0 && !movement.isParrying && animator.GetBool("isJumping"))
         {
             if (canReceiveInput)
             {
@@ -93,7 +115,7 @@ public class PlayerCombat : MonoBehaviour
 
     public void Parry()
     {
-        if (Input.GetButtonDown("Fire2") && playerStamina > 0)
+        if (Input.GetButtonDown("Fire2") && playerStamina > 0 && !animator.GetBool("isJumping"))
         {
             animator.SetTrigger("Parry");
         }
@@ -125,14 +147,22 @@ public class PlayerCombat : MonoBehaviour
         movement.isParrying = false;
     }
 
-    public void dealDamage()
+    public void dealDamage(int dmg)
     {
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         foreach(Collider2D enemy in hitEnemies)
         {
-            enemy.GetComponent<Enemy>().takeDmg(attackDamage);
-            Debug.Log("We hit " + enemy.name);
+            if (enemy.gameObject.tag == "Enemy")
+            {
+                enemy.GetComponent<Enemy>().takeDmg(dmg);
+                Debug.Log("Hit " + enemy.name);
+            }
+            else if (enemy.gameObject.tag == "Boss")
+            {
+                enemy.GetComponent<BossHealth>().TakeDamage(dmg);
+                Debug.Log("Hit " + enemy.name);
+            }
         }
     }
 
@@ -142,27 +172,55 @@ public class PlayerCombat : MonoBehaviour
 
         foreach(Collider2D enemy in hitEnemies)
         {
-            enemy.GetComponent<Enemy>().takeDmg(executeDamage);
-            Debug.Log("Executed " + enemy.name);
+            if (enemy.gameObject.tag == "Enemy")
+            {
+                enemy.GetComponent<Enemy>().takeDmg(10);
+                Debug.Log("Executed " + enemy.name);
+            }
+            else if(enemy.gameObject.tag == "BossHead")
+            {
+                if (enemy.GetComponentInParent<BossHealth>().canExecute)
+                {
+                    enemy.GetComponentInParent<BossHealth>().beheaded = true;
+                    enemy.GetComponentInParent<BossHealth>().TakeDamage(executeDamage);
+                }
+            }
+
         }
     }
 
     public void takeDmg(int dmg)
     {
+        if (isInvincible) { return; }
         playerHealth -= dmg;
+        
         animator.SetTrigger("Hurt");
         //play hurt anim
 
+        if(tickDown!= null) { StopCoroutine(tickDown); }
+
+        StartCoroutine(Stats.HealthTickDown());
         if(playerHealth <= 0)
         {
             Die();
         }
     }
 
+    public void enableIFrame()
+    {
+        isInvincible = true;
+    }
+
+    public void disableIframe()
+    {
+        isInvincible = false;
+    }
+
     void Die()
     {
         Debug.Log("Player died");
         animator.SetTrigger("isDead");
+        animator.SetBool("deadState", true);
 
     }
 

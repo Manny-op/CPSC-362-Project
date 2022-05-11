@@ -20,6 +20,10 @@ public class HealthBarScript : MonoBehaviour
     public Image HfillImage;
     public Image SfillImage;
 
+    private float hurtSpeed = 0.005f;
+
+    public Image HEffectImage;
+
     //here would be where to use class from player.
 
     // Start is called before the first frame update
@@ -53,8 +57,9 @@ public class HealthBarScript : MonoBehaviour
         float HfillValue = player.playerHealth / maxHealth;
         float SfillValue = player.playerStamina / maxStamina;
 
-        healthBar.value = HfillValue;
-        staminaBar.value = SfillValue;
+        healthBar.value = player.playerHealth / maxHealth;
+        staminaBar.value = player.playerStamina / maxStamina;
+
         // if(HfillValue <= healthBar.maxValue / 3)
         // {
         //     HfillImage.color = Color.white;
@@ -87,6 +92,19 @@ public class HealthBarScript : MonoBehaviour
         }
         regen = null;
     }
+
+    public IEnumerator HealthTickDown()
+    {
+        yield return new WaitForSeconds(1);
+
+        while(HEffectImage.fillAmount > healthBar.value)
+        {
+            HEffectImage.fillAmount -= hurtSpeed;
+            yield return regenTick;
+        }
+    }
+    
+
     // public float HealthChange(int dam)
     // {   
     //     //if damaging we do - the change

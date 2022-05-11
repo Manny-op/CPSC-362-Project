@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Parry
   - EnemyAttack
+  - Boss
+  - BossHead
   layers:
   - Default
   - TransparentFX
