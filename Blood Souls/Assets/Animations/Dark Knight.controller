@@ -1375,6 +1375,12 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+  - m_Name: isAirAttack
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -2028,7 +2034,7 @@ AnimatorStateMachine:
     m_Position: {x: 1710, y: -50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2098569665895945870}
-    m_Position: {x: 960, y: 50, z: 0}
+    m_Position: {x: 950, y: 50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3313304140258742578}
     m_Position: {x: 2440, y: 40, z: 0}
@@ -2731,7 +2737,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Attack3
+    m_ConditionEvent: isAirAttack
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5539591043990668143}

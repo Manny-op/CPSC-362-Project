@@ -27,6 +27,7 @@ public class AirAttack : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
        rb.gravityScale = gravity;
+       animator.SetBool("isAirAttack", false);
        animator.SetBool("isJumping", true);
     }
 

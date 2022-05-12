@@ -15,7 +15,7 @@ public class jumpBehavior : StateMachineBehaviour
     {
        if (PlayerCombat.instance.InputReceived)
        {
-           animator.SetTrigger("Attack3");
+           animator.SetBool("isAirAttack", true);
            PlayerCombat.instance.InputManager();
            PlayerCombat.instance.InputReceived=false;
            PlayerCombat.instance.Stats.StaminaUse(10);
@@ -25,7 +25,8 @@ public class jumpBehavior : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-      animator.SetBool("isJumping", false);
+      if(animator.GetBool("isAirAttack"))
+        { animator.SetBool("isJumping", false); }
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

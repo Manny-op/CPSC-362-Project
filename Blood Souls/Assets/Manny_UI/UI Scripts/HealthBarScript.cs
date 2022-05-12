@@ -96,6 +96,16 @@ public class HealthBarScript : MonoBehaviour
         regen = null;
     }
 
+    public IEnumerator RegenHealth(float newHealth)
+    {
+        while((player.playerHealth < newHealth) && !player.gothurt)
+        {
+            player.playerHealth += maxHealth / 100;
+            HEffectImage.fillAmount = healthBar.value;
+            yield return regenTick;
+        }
+    }
+
     public IEnumerator HealthTickDown()
     {
         yield return new WaitForSeconds(1);

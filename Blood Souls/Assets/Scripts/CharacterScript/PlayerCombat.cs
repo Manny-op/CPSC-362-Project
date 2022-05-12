@@ -6,6 +6,7 @@ public class PlayerCombat : MonoBehaviour
 {
 
     private Coroutine tickDown;
+    private Coroutine regen;
     public Collider2D parryCollider;
     public GameObject parryLocation;
     public TimeManager timeManager;
@@ -33,9 +34,13 @@ public class PlayerCombat : MonoBehaviour
     public float playerHealth;
     
     public float maxHealth = 100;
+    
     public float playerStamina;
 
     public float maxStamina = 100;
+
+    public int potionCount = 3;
+    public bool canDrinkPot = true;
     float RiposteTimer = 0f;
 
     [HideInInspector]
@@ -48,22 +53,32 @@ public class PlayerCombat : MonoBehaviour
     public bool isInvincible = true;
 
     public bool airAttackOnce = true;
+
+    [HideInInspector]public bool gothurt = false;
+
+    [HideInInspector] public UIPot uiPot;
+
+    float newHealth = 0;
     void Awake()
     {
         instance = this;
         playerHealth = maxHealth;
         playerStamina = maxStamina;
         parryCollider.enabled = false;
+        newHealth = (0.33f * maxHealth);
+        uiPot = this.GetComponentInChildren<UIPot>();
     }
 
     void Update()
     {
         parryCollider.transform.position = parryLocation.transform.position;
+        drinkPot();
         Attack();
         AirAttack();
         resetAirAttack();
         Parry();
         Riposte();
+        
         if(activateRiposteWindow)
         {
             Debug.Log("Riposte Available");
@@ -233,6 +248,31 @@ public class PlayerCombat : MonoBehaviour
 
     }
 
+    public void drinkPot()
+    {
+        if (potionCount > 0 && Input.GetKeyDown(KeyCode.Q) && canDrinkPot)
+        {
+            canDrinkPot = false;
+            Debug.Log("drank pot");
+            potionCount--;
+            if(regen != null) { StopCoroutine(regen); }
+
+            regen = StartCoroutine(this.GetComponentInChildren<HealthBarScript>().RegenHealth(playerHealth + newHealth));
+            playerHealth = Mathf.Clamp(playerHealth, 0, maxHealth);
+            uiPot.beginCD();
+        }
+    }
+
+    public void setHurt()
+    {
+        gothurt = true;
+    }
+
+    public void resetHurt()
+    {
+        gothurt = false;
+    }
+
     void Destroy()
     {
         Destroy(gameObject);
@@ -248,6 +288,5 @@ public class PlayerCombat : MonoBehaviour
             canReceiveInput = false;
         }
     }
-
 
 }
