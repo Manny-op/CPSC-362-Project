@@ -57,8 +57,6 @@ MonoBehaviour:
   healthPoints: 100
   stamina: 0
   movementSpeed: 0
-  attackDamage: 0
-  charBehavior: 0
 --- !u!61 &749183736436156948
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -119,6 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   oldPosition: 0
+  rb: {fileID: 749183736436156949}
 --- !u!1 &776622312843279751
 GameObject:
   m_ObjectHideFlags: 0

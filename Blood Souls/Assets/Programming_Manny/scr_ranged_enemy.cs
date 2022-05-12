@@ -22,10 +22,7 @@ public class scr_ranged_enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        healthPoints = 16;
-        stamina = 10;
-        movementSpeed = 5;
-        attackDamage = 6;  // Deals out 6 hit points from the looks of it to player
+        
 
         timer = 0;
 

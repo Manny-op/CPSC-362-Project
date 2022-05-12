@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpriteFlip : MonoBehaviour
 {
     public float oldPosition;
-    
+    public Rigidbody2D rb;
 
     private void LateUpdate()
     {
@@ -15,13 +15,14 @@ public class SpriteFlip : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.x > oldPosition)
+        var localVar = transform.InverseTransformDirection(rb.velocity);
+        if(localVar.x > 0)
         {
-            gameObject.transform.localRotation= new Quaternion(0, -180, 0, 0);
+            gameObject.transform.localRotation= new Quaternion(0, 180, 0, 0);
         }
-        if (transform.position.x < oldPosition)
+        if (localVar.x < 0)
         {
-            gameObject.transform.localRotation = new Quaternion(0, 180, 0, 0);
+            gameObject.transform.localRotation = new Quaternion(0, 0, 0, 0);
         }
     }
 }

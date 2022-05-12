@@ -82,7 +82,7 @@ public class scr_melee_Enem : MonoBehaviour
             Debug.Log("Touch Player");
             // eventually change variable from attack to damage to something like
             // collision.GetComponent<Player_Script>.AttackDamage();
-            TakeDamage(attackDamage);
+            //TakeDamage(attackDamage);
             //will take damage from player attack
         }
     }

@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 8104336790280609370}
   - component: {fileID: 8104336790280609371}
   - component: {fileID: 7406165589350225756}
+  - component: {fileID: 5451744527233493211}
   m_Layer: 0
   m_Name: Test Ranged Enemy
   m_TagString: Enemy
@@ -295,3 +296,17 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   healthBar: {fileID: 0}
+--- !u!114 &5451744527233493211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8104336790280609372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08dc5ca3f9887ed4183547b5243b621f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  oldPosition: 0
+  rb: {fileID: 8104336790280609370}
