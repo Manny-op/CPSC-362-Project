@@ -37850,6 +37850,13 @@ AnimationClip:
     floatParameter: 15
     intParameter: 0
     messageOptions: 0
+  - time: 0
+    functionName: setAttackRange
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 5
+    intParameter: 0
+    messageOptions: 0
   - time: 0.56666666
     functionName: EnragedAttack
     data: 
@@ -37939,5 +37946,12 @@ AnimationClip:
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.4333333
+    functionName: setAttackRange
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 10
     intParameter: 0
     messageOptions: 0

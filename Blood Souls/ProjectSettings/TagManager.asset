@@ -11,6 +11,7 @@ TagManager:
   - BossHead
   - Entrance
   - InsidePortal
+  - RangedEnemy
   layers:
   - Default
   - TransparentFX

@@ -103,6 +103,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetAxisRaw("Horizontal") < 0) && controller.m_Grounded)
             {
+                FindObjectOfType<AudioManager>().PlaySound("Roll");
                 animator.SetBool("isRolling", true);
                 RollOnce = false;
                 StartCoroutine(Roll(-1f));
@@ -112,6 +113,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetAxisRaw("Horizontal") > 0) && controller.m_Grounded)
             {
+                FindObjectOfType<AudioManager>().PlaySound("Roll");
                animator.SetBool("isRolling", true);
                RollOnce = false;
                StartCoroutine(Roll(1f));
@@ -138,6 +140,15 @@ public class PlayerMovement : MonoBehaviour
         isAttacking = false;
     }
 
+    public void swish()
+    {
+        FindObjectOfType<AudioManager>().PlaySound("swish");
+    }
+
+    public void slash()
+    {
+        FindObjectOfType<AudioManager>().PlaySound("slash");
+    }
 
     public void onLanding()
     {

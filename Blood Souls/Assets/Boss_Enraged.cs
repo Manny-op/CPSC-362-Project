@@ -7,6 +7,7 @@ public class Boss_Enraged : StateMachineBehaviour
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+       FindObjectOfType<AudioManager>().PlaySound("Roar");
        animator.GetComponent<BossHealth>().isInvulnerable = true;
     }
 

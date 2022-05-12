@@ -181,11 +181,19 @@ public class PlayerCombat : MonoBehaviour
             {
                 enemy.GetComponent<Enemy>().takeDmg(dmg);
                 Debug.Log("Hit " + enemy.name);
+                FindObjectOfType<AudioManager>().PlaySound("hitSound");
+            }
+            if (enemy.gameObject.tag == "RangedEnemy")
+            {
+                enemy.GetComponent<EnemyRanged>().takeDmg(dmg);
+                Debug.Log("Hit " + enemy.name);
+                FindObjectOfType<AudioManager>().PlaySound("hitSound");
             }
             else if (enemy.gameObject.tag == "Boss")
             {
                 enemy.GetComponent<BossHealth>().TakeDamage(dmg);
                 Debug.Log("Hit " + enemy.name);
+                FindObjectOfType<AudioManager>().PlaySound("hitSound");
             }
         }
     }
@@ -200,6 +208,13 @@ public class PlayerCombat : MonoBehaviour
             {
                 enemy.GetComponent<Enemy>().takeDmg(dmg);
                 Debug.Log("Executed " + enemy.name);
+                FindObjectOfType<AudioManager>().PlaySound("ExecuteSound");
+            }
+            else if (enemy.gameObject.tag == "RangedEnemy")
+            {
+                enemy.GetComponent<EnemyRanged>().takeDmg(dmg);
+                Debug.Log("Hit " + enemy.name);
+                FindObjectOfType<AudioManager>().PlaySound("ExecuteSound");
             }
             else if(enemy.gameObject.tag == "BossHead")
             {
@@ -207,6 +222,7 @@ public class PlayerCombat : MonoBehaviour
                 {
                     enemy.GetComponentInParent<BossHealth>().beheaded = true;
                     enemy.GetComponentInParent<BossHealth>().TakeDamage(executeDamage);
+                    FindObjectOfType<AudioManager>().PlaySound("ExecuteSound");
                 }
             }
 
@@ -217,7 +233,7 @@ public class PlayerCombat : MonoBehaviour
     {
         if (isInvincible) { return; }
         playerHealth -= dmg;
-        
+        FindObjectOfType<AudioManager>().PlaySound("hitSound");
         animator.SetTrigger("Hurt");
         //play hurt anim
 
@@ -242,9 +258,9 @@ public class PlayerCombat : MonoBehaviour
 
     void Die()
     {
+        animator.SetBool("deadState", true);
         Debug.Log("Player died");
         animator.SetTrigger("isDead");
-        animator.SetBool("deadState", true);
 
     }
 
@@ -252,6 +268,7 @@ public class PlayerCombat : MonoBehaviour
     {
         if (potionCount > 0 && Input.GetKeyDown(KeyCode.Q) && canDrinkPot)
         {
+            FindObjectOfType<AudioManager>().PlaySound("drinkPot");
             canDrinkPot = false;
             Debug.Log("drank pot");
             potionCount--;

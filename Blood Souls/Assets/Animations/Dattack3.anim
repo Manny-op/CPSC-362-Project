@@ -95,6 +95,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 30
     messageOptions: 0
+  - time: 0.46666667
+    functionName: slash
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.75
     functionName: resetAttack
     data: 

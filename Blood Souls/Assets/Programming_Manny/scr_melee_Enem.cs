@@ -8,6 +8,9 @@ public class scr_melee_Enem : MonoBehaviour
     public GameObject attackBox;
     float timer;
     public float maxTimer;
+    public Animator animator;
+    public SpriteRenderer sprite;
+    public Rigidbody2D rb;
 
     [SerializeField]
     private int healthPoints;
@@ -49,7 +52,9 @@ public class scr_melee_Enem : MonoBehaviour
         if (healthPoints <=0)
         {
             Destroy(gameObject);
-        }        
+        }
+        
+        
     }
     // using fixed update as it will sync better compared to regular update
     private void FixedUpdate()
@@ -64,7 +69,7 @@ public class scr_melee_Enem : MonoBehaviour
     //Create functions for taking damage, will use both melee and ranged for now and create a way to 
     // detect what the enemy is
 
-    void TakeDamage(int damage)
+    void takeDmg(int damage)
     {
         healthPoints -= damage;
     }
@@ -74,20 +79,20 @@ public class scr_melee_Enem : MonoBehaviour
         if (collision.gameObject.tag == "Player")   //using Player rn so that the enemy gets damaged when touching player
             //when an attack has been made, will need to switch to the attack collider.
         {
-            Debug.Log("Touch Player");
             // eventually change variable from attack to damage to something like
             // collision.GetComponent<Player_Script>.AttackDamage();
-            TakeDamage(attackDamage);
+            //TakeDamage(attackDamage);
             //will take damage from player attack
         }
     }
 
     void Attack()
     {
+        animator.SetTrigger("Attack");
         float x = transform.position.x;
         float y = transform.position.y;
         float z = transform.position.z;
-        GameObject hitBox = Instantiate(attackBox, new Vector3(x, y, z), Quaternion.identity);
+        //GameObject hitBox = Instantiate(attackBox, new Vector3(x, y, z), Quaternion.identity);
     }
 
 }

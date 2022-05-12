@@ -46,7 +46,7 @@ public class scr_projectile : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            collision.GetComponent<PlayerCombat>().playerHealth -= 5;
+            collision.GetComponent<PlayerCombat>().takeDmg(15);
             Debug.Log("Take Damage");
             Destroy(this.gameObject);
         }

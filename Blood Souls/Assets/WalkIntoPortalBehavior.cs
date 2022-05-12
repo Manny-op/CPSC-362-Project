@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WalkIntoPortalBehavior : StateMachineBehaviour
 {
@@ -9,7 +10,7 @@ public class WalkIntoPortalBehavior : StateMachineBehaviour
 
     Rigidbody2D rb;
 
-    float isInPortal = 0.5f;
+    float isInPortal = 1f;
 
     Transform insidePortal;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
@@ -28,7 +29,7 @@ public class WalkIntoPortalBehavior : StateMachineBehaviour
 
        if(Vector2.Distance(insidePortal.position, rb.position) <= isInPortal)
        {
-           //loadTransition
+           SceneManager.LoadScene("BossCutscene");
        }
 
     }
