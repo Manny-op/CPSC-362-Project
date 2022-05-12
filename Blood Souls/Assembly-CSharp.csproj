@@ -83,6 +83,7 @@
     <Compile Include="Assets\Imported Assets\Boss Hydra\demo\UnitControl.cs" />
     <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\Sensor_Prototype.cs" />
     <Compile Include="Assets\Imported Assets\Prototype Hero Demo - Pixel Art\Demo\AudioManager_PrototypeHero.cs" />
+    <Compile Include="Assets\Scripts\CharacterScript\SpriteFlip.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Imported Assets\Boss Hydra\boss_hydra_spine\Export\boss_hydra.atlas.txt" />

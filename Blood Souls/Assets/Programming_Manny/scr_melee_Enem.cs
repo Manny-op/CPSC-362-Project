@@ -53,16 +53,8 @@ public class scr_melee_Enem : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        Debug.Log(rb.velocity.magnitude);
-        //Flipping time.
-        if(rb.velocity.magnitude < 0)
-        {
-            gameObject.transform.localRotation = new Quaternion(0, -180, 0, 0);
-        }
-        if(rb.velocity.magnitude > 0)
-        {
-            gameObject.transform.localRotation = new Quaternion(0,180,0, 0);
-        }
+        
+        
     }
     // using fixed update as it will sync better compared to regular update
     private void FixedUpdate()
