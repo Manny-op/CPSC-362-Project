@@ -19,13 +19,11 @@ public class scr_ranged_enemy : MonoBehaviour
     [SerializeField]
     private int attackDamage;
 
+    public bool isDetected = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        healthPoints = 16;
-        stamina = 10;
-        movementSpeed = 5;
-        attackDamage = 6;  // Deals out 6 hit points from the looks of it to player
 
         timer = 0;
 
@@ -38,7 +36,7 @@ public class scr_ranged_enemy : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if (timer >= maxTimer)
+        if (timer >= maxTimer && isDetected)
         {
             timer = 0f;
             Shoot();
@@ -48,7 +46,7 @@ public class scr_ranged_enemy : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Vector2.Distance(player.transform.position, transform.position) >= 6f)
+        if (Vector2.Distance(player.transform.position, transform.position) >= 6f && isDetected)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, 7f * Time.deltaTime);
         }

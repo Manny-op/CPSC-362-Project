@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: f6c1b14774f09d440a0a6f7aa6f0ee1a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - FOT-Matisse Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5aa51e9950a855d498f2aad598f618e6, type: 3}
+  - {fileID: 12800000, guid: 84e2f878bf01214479d1be7b5c40e665, type: 3}
+  - {fileID: 12800000, guid: a7676a483c29a6f4c9a08966e1fc3eb0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

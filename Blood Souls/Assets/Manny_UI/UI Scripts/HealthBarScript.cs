@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class HealthBarScript : MonoBehaviour
 {
     public static HealthBarScript instance;
-
+    private Coroutine tickDown;
     private Coroutine regen;
     private WaitForSeconds regenTick = new WaitForSeconds(0.01f);
     public PlayerCombat player;
@@ -19,6 +19,12 @@ public class HealthBarScript : MonoBehaviour
 
     public Image HfillImage;
     public Image SfillImage;
+
+    private float hurtSpeed = 0.005f;
+
+    public Image HEffectImage;
+
+    public Image SEffectImage;
 
     //here would be where to use class from player.
 
@@ -53,8 +59,9 @@ public class HealthBarScript : MonoBehaviour
         float HfillValue = player.playerHealth / maxHealth;
         float SfillValue = player.playerStamina / maxStamina;
 
-        healthBar.value = HfillValue;
-        staminaBar.value = SfillValue;
+        healthBar.value = player.playerHealth / maxHealth;
+        staminaBar.value = player.playerStamina / maxStamina;
+
         // if(HfillValue <= healthBar.maxValue / 3)
         // {
         //     HfillImage.color = Color.white;
@@ -83,10 +90,44 @@ public class HealthBarScript : MonoBehaviour
         while(player.playerStamina < maxStamina)
         {
             player.playerStamina += maxStamina / 100;
+            SEffectImage.fillAmount = staminaBar.value;
             yield return regenTick;
         }
         regen = null;
     }
+
+    public IEnumerator RegenHealth(float newHealth)
+    {
+        while((player.playerHealth < newHealth) && !player.gothurt)
+        {
+            player.playerHealth += maxHealth / 100;
+            HEffectImage.fillAmount = healthBar.value;
+            yield return regenTick;
+        }
+    }
+
+    public IEnumerator HealthTickDown()
+    {
+        yield return new WaitForSeconds(1);
+
+        while(HEffectImage.fillAmount > healthBar.value)
+        {
+            HEffectImage.fillAmount -= hurtSpeed;
+            yield return regenTick;
+        }
+    }
+    public IEnumerator StaminaTickDown()
+    {
+        yield return new WaitForSeconds(1);
+
+        while(SEffectImage.fillAmount > staminaBar.value)
+        {
+            SEffectImage.fillAmount -= hurtSpeed;
+            yield return regenTick;
+        }
+    }
+    
+
     // public float HealthChange(int dam)
     // {   
     //     //if damaging we do - the change
@@ -104,6 +145,10 @@ public class HealthBarScript : MonoBehaviour
         if(player.playerStamina - amt >= 0)
         {
             player.playerStamina -= amt;
+
+            if(tickDown!= null) { StopCoroutine(tickDown); }
+
+            StartCoroutine(StaminaTickDown());
 
             if(regen != null) { StopCoroutine(regen); }
 

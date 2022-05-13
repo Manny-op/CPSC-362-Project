@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
 
     bool crouch = false;
 
+    public bool isInteracting = false;
+
     public float dashDistance = 15f;
     public float vdashDistance = 15f;
     public float rollDist = 10f;
@@ -25,6 +27,9 @@ public class PlayerMovement : MonoBehaviour
     float doubleTapTime;
     KeyCode lastKeyCode;
     private Rigidbody2D m_Rigidbody2D;
+
+    bool isAttacking = false;
+
     // Update is called once per frame
 
     void Awake()
@@ -34,8 +39,17 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        Interact();
+        if(isAttacking || isParrying)
+        {
+            horizontalMove = 0;
+            animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        }
+        else if(!isAttacking || !isParrying)
+        {
+            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+            animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        }
         if (Input.GetButtonDown("Jump") && !isParrying && !isRolling)
         {
             jump = true;
@@ -51,7 +65,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (dashOnce && !isRolling && !isParrying){
         //dash left
-            if (Input.GetKeyDown(KeyCode.A) && (Input.GetAxisRaw("Horizontal") < 0 ) && !crouch)
+            if (Input.GetKeyDown(KeyCode.A) && (Input.GetAxisRaw("Horizontal") < 0 ) && !crouch && !isAttacking)
             {
                 if (doubleTapTime > Time.time && lastKeyCode == KeyCode.A)
                 {
@@ -68,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
                 lastKeyCode = KeyCode.A;
             }
             //dash right
-            if (Input.GetKeyDown(KeyCode.D) && (Input.GetAxisRaw("Horizontal") > 0 ) && !crouch)
+            if (Input.GetKeyDown(KeyCode.D) && (Input.GetAxisRaw("Horizontal") > 0 ) && !crouch && !isAttacking)
             {
                 if (doubleTapTime > Time.time && lastKeyCode == KeyCode.D)
                 {   
@@ -85,10 +99,11 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (RollOnce && !isDashing && !isParrying)
+        if (RollOnce && !isDashing && !isParrying && !isAttacking && PlayerCombat.instance.playerStamina > 0)
         {
             if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetAxisRaw("Horizontal") < 0) && controller.m_Grounded)
             {
+                FindObjectOfType<AudioManager>().PlaySound("Roll");
                 animator.SetBool("isRolling", true);
                 RollOnce = false;
                 StartCoroutine(Roll(-1f));
@@ -98,6 +113,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetAxisRaw("Horizontal") > 0) && controller.m_Grounded)
             {
+                FindObjectOfType<AudioManager>().PlaySound("Roll");
                animator.SetBool("isRolling", true);
                RollOnce = false;
                StartCoroutine(Roll(1f));
@@ -106,6 +122,32 @@ public class PlayerMovement : MonoBehaviour
             
         }
         animator.SetFloat("yVel", m_Rigidbody2D.velocity.y);
+    }
+
+    public void Interact()
+    {
+        if(Input.GetKeyDown(KeyCode.F)) { isInteracting = true; Debug.Log(isInteracting);}
+        else if (Input.GetKeyUp(KeyCode.F)) {isInteracting = false;}
+    }
+
+    public void setIsAttacking()
+    {
+        isAttacking = true;
+    }
+
+    public void resetAttack()
+    {
+        isAttacking = false;
+    }
+
+    public void swish()
+    {
+        FindObjectOfType<AudioManager>().PlaySound("swish");
+    }
+
+    public void slash()
+    {
+        FindObjectOfType<AudioManager>().PlaySound("slash");
     }
 
     public void onLanding()
@@ -121,7 +163,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         //Move character
-       if (!isDashing || !isRolling || !isParrying){
+       if (!isDashing || !isRolling || !isParrying || !isAttacking){
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
        }

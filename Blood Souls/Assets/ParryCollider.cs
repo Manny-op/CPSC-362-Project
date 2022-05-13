@@ -28,6 +28,7 @@ public class ParryCollider : MonoBehaviour
 
             if (playerMovementScript.isParrying && EnemyCharacter.canBeParried)
             {
+                FindObjectOfType<AudioManager>().PlaySound("Parry");
                 Debug.Log("Parry");
                 EnemyCharacter.animator.SetBool("Parried", true);
                 EnemyCharacter.isParried = true;

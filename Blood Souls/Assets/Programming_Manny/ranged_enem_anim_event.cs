@@ -21,4 +21,10 @@ public class ranged_enem_anim_event : MonoBehaviour
         animator.SetBool("IsAttack", false);
     }
 
+    void Destroy()
+    {
+        this.GetComponentInParent<EnemyRanged>().Destroy();
+        Destroy(gameObject);
+    }
+
 }
