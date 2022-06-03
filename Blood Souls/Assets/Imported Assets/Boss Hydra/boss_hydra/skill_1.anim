@@ -29631,6 +29631,13 @@ AnimationClip:
     floatParameter: 10
     intParameter: 0
     messageOptions: 0
+  - time: 0.5
+    functionName: biteSound
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.53333336
     functionName: Attack
     data: 

@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
     public Animator animator;
+    public static PlayerMovement instance;
     public float runSpeed = 40f;
     float horizontalMove = 0f;
     bool jump = false;
@@ -19,16 +20,17 @@ public class PlayerMovement : MonoBehaviour
     public float rollDist = 10f;
 
     float gravityfordash = 0f;
-    bool isDashing;
+    public bool isDashing;
     bool isRolling;
     bool dashOnce = true;
     bool RollOnce = true;
-   public bool isParrying = false;
+    public bool isParrying = false;
     float doubleTapTime;
     KeyCode lastKeyCode;
     private Rigidbody2D m_Rigidbody2D;
 
     bool isAttacking = false;
+
 
     // Update is called once per frame
 
@@ -36,92 +38,100 @@ public class PlayerMovement : MonoBehaviour
     {
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
         gravityfordash = m_Rigidbody2D.gravityScale;
+        instance = this;
     }
     void Update()
     {
-        Interact();
-        if(isAttacking || isParrying)
+        if(!PauseMenu.gamePaused)
         {
-            horizontalMove = 0;
-            animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-        }
-        else if(!isAttacking || !isParrying)
-        {
-            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-            animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-        }
-        if (Input.GetButtonDown("Jump") && !isParrying && !isRolling)
-        {
-            jump = true;
-            animator.SetBool("isJumping", true);
-        }
-        if (Input.GetKeyDown(KeyCode.S) && !isParrying)
-        {
-            crouch = true;
-        }
-        else if (Input.GetKeyUp(KeyCode.S) && !isParrying)
-        {
-            crouch = false;
-        }
-        if (dashOnce && !isRolling && !isParrying){
-        //dash left
-            if (Input.GetKeyDown(KeyCode.A) && (Input.GetAxisRaw("Horizontal") < 0 ) && !crouch && !isAttacking)
-            {
-                if (doubleTapTime > Time.time && lastKeyCode == KeyCode.A)
+
+                Interact();
+                if(isAttacking || isParrying)
                 {
-                    animator.SetBool("isDashing", true);
-                    dashOnce = false;
-                    StartCoroutine(Dash(-1f));
-                    StartCoroutine(DashCooldown());
+                    horizontalMove = 0;
+                    animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+                }
+                else if(!isAttacking || !isParrying)
+                {
+                    horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+                    animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+                }
+                if (Input.GetButtonDown("Jump") && !isParrying && !isRolling)
+                {
+                    jump = true;
+                    animator.SetBool("isJumping", true);
+                }
+                if (Input.GetKeyDown(KeyCode.S) && !isParrying)
+                {
+                    crouch = true;
+                }
+                else if (Input.GetKeyUp(KeyCode.S) && !isParrying)
+                {
+                    crouch = false;
+                }
+                if (dashOnce && !isRolling && !isParrying){
+                //dash left
+                    if (Input.GetKeyDown(KeyCode.A) && (Input.GetAxisRaw("Horizontal") < 0 ) && !crouch && !isAttacking)
+                    {
+                        if (doubleTapTime > Time.time && lastKeyCode == KeyCode.A)
+                        {
+                            animator.SetBool("isDashing", true);
+                            animator.SetTrigger("Dash");
+                            dashOnce = false;
+                            StartCoroutine(Dash(-1f));
+                            StartCoroutine(DashCooldown());
+                            
+                        }
+                        else
+                        {
+                            doubleTapTime = Time.time + 0.5f;
+                        }
+                        lastKeyCode = KeyCode.A;
+                    }
+                    //dash right
+                    if (Input.GetKeyDown(KeyCode.D) && (Input.GetAxisRaw("Horizontal") > 0 ) && !crouch && !isAttacking)
+                    {
+                        if (doubleTapTime > Time.time && lastKeyCode == KeyCode.D)
+                        {   
+                            animator.SetBool("isDashing", true);
+                            animator.SetTrigger("Dash");
+                            dashOnce = false;
+                            StartCoroutine(Dash(1f));
+                            StartCoroutine(DashCooldown());
+                        }
+                        else
+                        {
+                            doubleTapTime = Time.time + 0.5f;
+                        }
+                        lastKeyCode = KeyCode.D;
+                    }
+                }
+
+                if (RollOnce && !isDashing && !isParrying && !isAttacking && PlayerCombat.instance.playerStamina > 0)
+                {
+                    if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetAxisRaw("Horizontal") < 0) && controller.m_Grounded)
+                    {
+                        FindObjectOfType<AudioManager>().PlaySound("Roll");
+                        animator.SetBool("isRolling", true);
+                        RollOnce = false;
+                        StartCoroutine(Roll(-1f));
+                        StartCoroutine(RollCD());
+
+                    }
+
+                    if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetAxisRaw("Horizontal") > 0) && controller.m_Grounded)
+                    {
+                        FindObjectOfType<AudioManager>().PlaySound("Roll");
+                    animator.SetBool("isRolling", true);
+                    RollOnce = false;
+                    StartCoroutine(Roll(1f));
+                    StartCoroutine(RollCD());
+                    }
                     
                 }
-                else
-                {
-                    doubleTapTime = Time.time + 0.5f;
-                }
-                lastKeyCode = KeyCode.A;
-            }
-            //dash right
-            if (Input.GetKeyDown(KeyCode.D) && (Input.GetAxisRaw("Horizontal") > 0 ) && !crouch && !isAttacking)
-            {
-                if (doubleTapTime > Time.time && lastKeyCode == KeyCode.D)
-                {   
-                    animator.SetBool("isDashing", true);
-                    dashOnce = false;
-                    StartCoroutine(Dash(1f));
-                    StartCoroutine(DashCooldown());
-                }
-                else
-                {
-                    doubleTapTime = Time.time + 0.5f;
-                }
-                lastKeyCode = KeyCode.D;
-            }
-        }
-
-        if (RollOnce && !isDashing && !isParrying && !isAttacking && PlayerCombat.instance.playerStamina > 0)
-        {
-            if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetAxisRaw("Horizontal") < 0) && controller.m_Grounded)
-            {
-                FindObjectOfType<AudioManager>().PlaySound("Roll");
-                animator.SetBool("isRolling", true);
-                RollOnce = false;
-                StartCoroutine(Roll(-1f));
-                StartCoroutine(RollCD());
-
-            }
-
-            if (Input.GetKeyDown(KeyCode.LeftShift) && (Input.GetAxisRaw("Horizontal") > 0) && controller.m_Grounded)
-            {
-                FindObjectOfType<AudioManager>().PlaySound("Roll");
-               animator.SetBool("isRolling", true);
-               RollOnce = false;
-               StartCoroutine(Roll(1f));
-               StartCoroutine(RollCD());
-            }
+                animator.SetFloat("yVel", m_Rigidbody2D.velocity.y);
             
         }
-        animator.SetFloat("yVel", m_Rigidbody2D.velocity.y);
     }
 
     public void Interact()
@@ -150,6 +160,23 @@ public class PlayerMovement : MonoBehaviour
         FindObjectOfType<AudioManager>().PlaySound("slash");
     }
 
+    public void step()
+    {
+        FindObjectOfType<AudioManager>().PlaySound("FootSteps");
+    }
+
+    public void dash()
+    {
+
+        FindObjectOfType<AudioManager>().PlaySound("Dash");  
+
+    }
+
+    public void Jump()
+    {
+        FindObjectOfType<AudioManager>().PlaySound("Jump"); 
+    }
+
     public void onLanding()
     {
         animator.SetBool("isJumping", false);
@@ -172,6 +199,7 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator Dash(float direction)
     {
         isDashing = true;
+        dash();
         m_Rigidbody2D.velocity = new Vector2(m_Rigidbody2D.velocity.x, 0f);
         m_Rigidbody2D.AddForce(new Vector2(dashDistance * direction, 0f), ForceMode2D.Impulse);
         float gravity = m_Rigidbody2D.gravityScale;
@@ -180,19 +208,6 @@ public class PlayerMovement : MonoBehaviour
         isDashing = false;
         animator.SetBool("isDashing", false);
         m_Rigidbody2D.gravityScale = gravity;
-    }
-
-    public void DashUp()
-    {
-        m_Rigidbody2D.velocity = new Vector2(0f, m_Rigidbody2D.velocity.y);
-        m_Rigidbody2D.AddForce(new Vector2(0f, vdashDistance), ForceMode2D.Impulse);
-        m_Rigidbody2D.gravityScale = 0;
-    }
-
-    public void DashDown()
-    {
-        m_Rigidbody2D.AddForce(new Vector2(0f, -vdashDistance), ForceMode2D.Impulse);
-        m_Rigidbody2D.gravityScale = gravityfordash;
     }
 
     IEnumerator DashCooldown()

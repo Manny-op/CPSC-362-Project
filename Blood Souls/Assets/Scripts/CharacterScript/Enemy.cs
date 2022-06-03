@@ -16,15 +16,15 @@ public class Enemy : MonoBehaviour
     public float attackRange = 0.5f;
 
     public int attackDamage = 15;
-    private int movementSpeed = 5;
     public bool isParried = false;
 
     public bool isDetected = false;
     private GameObject playerposition;
     public LayerMask PlayerLayer;
 
-    private float timer = 0;
-    float nextAttackTime = 0f;
+    public bool Poise = false;
+    bool doOnce = true;
+
     // Start is called before the first frame update
     public EnemyHealthBar healthBar;
     void Start()
@@ -35,45 +35,22 @@ public class Enemy : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void FixedUpdate()
-    {
-        if (Vector2.Distance(player.transform.position, transform.position) >= 3f && !isParried && isDetected && !animator.GetBool("isDead"))
-        {
-            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, movementSpeed * Time.deltaTime);
-
-        }
-    }
-
-        void Update()
-    {
-
-        timer += Time.deltaTime;
-        if (timer >= 1 && !isParried && isDetected)
-        {
-            timer = 0;
-            Attack();
-        }
-        
-        
-    }
-        void Attack()
-    {
-        animator.SetTrigger("Attack");
-        float x = transform.position.x;
-        float y = transform.position.y;
-        float z = transform.position.z;
-        //GameObject hitBox = Instantiate(attackBox, new Vector3(x, y, z), Quaternion.identity);
-    }
 
     public void takeDmg(int dmg)
     {
         currentHealth -= dmg;
         healthBar.SetHealth(currentHealth,maxHealth);
-        animator.SetTrigger("Hurt");
+        if(!Poise)
+        {
+            enablePoise();
+            animator.SetTrigger("Hurt");
+        }
         //play hurt anim
 
-        if(currentHealth <= 0)
+        if(currentHealth <= 0 && doOnce)
         {
+            doOnce = false;
+            
             Die();
         }
     }
@@ -102,6 +79,7 @@ public class Enemy : MonoBehaviour
     }
     void Die()
     {
+        PlayerCombat.instance.enemyCount--;
         animator.SetBool("Parried", false);
         Debug.Log("Enemy died");
         animator.SetBool("isDead", true);
@@ -113,4 +91,42 @@ public class Enemy : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    public void SkeletonFootstep()
+    {
+        FindObjectOfType<AudioManager>().PlaySound("SkelFootstep");
+    }
+
+    public void SkeletonHit()
+    {
+        FindObjectOfType<AudioManager>().PlaySound("SHurt");
+    }
+    public void SkeletonDeath()
+    {
+        FindObjectOfType<AudioManager>().PlaySound("SDeath");
+    }
+    public void SkeletonSword()
+    {
+        FindObjectOfType<AudioManager>().PlaySound("SkelSword");
+    }
+
+    public void banditSword()
+    {
+        FindObjectOfType<AudioManager>().PlaySound("BanditSword");
+    }
+
+    public void enablePoise()
+    {
+        Poise = true;
+
+        StartCoroutine(PoiseTimer());
+    }
+
+    IEnumerator PoiseTimer()
+    {
+        yield return new WaitForSeconds(2f);
+
+        Poise = false;
+    }
+
 }

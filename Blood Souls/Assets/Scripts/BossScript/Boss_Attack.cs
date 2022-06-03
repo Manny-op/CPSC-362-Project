@@ -55,4 +55,9 @@ public class Boss_Attack : MonoBehaviour
 	{
 		attackRange = range;
 	}
+
+	public void biteSound()
+	{
+		FindObjectOfType<AudioManager>().PlaySound("Bite");
+	}
 }

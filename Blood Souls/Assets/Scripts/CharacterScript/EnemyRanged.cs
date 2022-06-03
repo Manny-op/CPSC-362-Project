@@ -27,7 +27,7 @@ public class EnemyRanged : MonoBehaviour
         animator.SetTrigger("Hurt");
         //play hurt anim
 
-        if(currentHealth <= 0)
+        if(currentHealth <= 0 && !animator.GetBool("isDead"))
         {
             Die();
         }
@@ -38,6 +38,7 @@ public class EnemyRanged : MonoBehaviour
     {
         Debug.Log("Enemy died");
         animator.SetBool("isDead", true);
+        PlayerCombat.instance.enemyCount--;
         //animator.SetTrigger("Death");
 
 

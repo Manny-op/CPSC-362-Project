@@ -70,6 +70,15 @@ public class Boss : MonoBehaviour
         ba = this.GetComponent<Boss_Attack>();
     }
 
+    void Start()
+    {
+        StartCoroutine(InitialRoar());
+    }
+    IEnumerator InitialRoar()
+    {
+        yield return new WaitForSeconds(0.1f);
+        FindObjectOfType<AudioManager>().PlaySound("Roar");
+    }
     // Update is called once per frame
     void Update()
     {
@@ -79,8 +88,9 @@ public class Boss : MonoBehaviour
 		}
         if (Health.health <= 0)
 		{
-             animator.SetBool("oneHP", false);
+            animator.SetBool("oneHP", false);
 			animator.SetBool("isDead", true);
+            StartCoroutine(Health.waitToFade());
 		}
     }
 }

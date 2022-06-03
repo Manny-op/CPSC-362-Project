@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BossHealth : MonoBehaviour
 {
-
+	public GameObject bossDeath;
 	private Coroutine tickDown;
 
 	[HideInInspector]public BossHealthBar healthBar;
@@ -26,6 +26,7 @@ public class BossHealth : MonoBehaviour
 	}
 	public void TakeDamage(int damage)
 	{
+		if(this.GetComponent<Animator>().GetBool("isDead")) { return; }
 		if (isInvulnerable)
 			return;
 
@@ -38,8 +39,13 @@ public class BossHealth : MonoBehaviour
 
 	void Die()
 	{
-		//Instantiate(deathEffect, transform.position, Quaternion.identity);
-		Destroy(gameObject);
+		bossDeath.SetActive(true);
+	}
+
+	public IEnumerator waitToFade()
+	{
+		yield return new WaitForSeconds(3);
+		Die();
 	}
 
 }

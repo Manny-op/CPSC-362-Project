@@ -11,6 +11,7 @@ public class PlayerCombat : MonoBehaviour
     public GameObject parryLocation;
     public TimeManager timeManager;
 
+    public GameObject deathScene;
     public bool isStanding;
     public bool canRiposte = false;
     public bool activateRiposteWindow = false;
@@ -26,7 +27,6 @@ public class PlayerCombat : MonoBehaviour
 
     public LayerMask parryLayers;
     public float attackRate = 2f;
-    private float nextAttackTime = 0f;
     public int attackDamage = 40;
 
     public int executeDamage = 100;
@@ -45,18 +45,24 @@ public class PlayerCombat : MonoBehaviour
 
     [HideInInspector]
     public bool canReceiveInput;
+
+    public bool canReceiveInputf2;
     [HideInInspector]
     public bool InputReceived;
 
-    bool parrySuccess = false;
+    public bool InputReceivedf2;
 
     public bool isInvincible = true;
 
     public bool airAttackOnce = true;
 
+    public bool killedAll = false;
+
+    public int enemyCount = 0;
     [HideInInspector]public bool gothurt = false;
 
     [HideInInspector] public UIPot uiPot;
+
 
     float newHealth = 0;
     void Awake()
@@ -71,29 +77,34 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
-        parryCollider.transform.position = parryLocation.transform.position;
-        drinkPot();
-        Attack();
-        AirAttack();
-        resetAirAttack();
-        Parry();
-        Riposte();
-        
-        if(activateRiposteWindow)
+        if (!PauseMenu.gamePaused)
         {
-            Debug.Log("Riposte Available");
-            RiposteTimer += Time.deltaTime;
-            if(RiposteTimer < 1.5)
-            {
-                canRiposte = true;
-            }
-            else if( RiposteTimer > 1.5)
-            {
-                Debug.Log("Riposte Unavailable");
-                RiposteTimer = 0;
-                activateRiposteWindow = false;
-                canRiposte= false;
-            }
+
+
+                parryCollider.transform.position = parryLocation.transform.position;
+                drinkPot();
+                Attack();
+                AirAttack();
+                resetAirAttack();
+                Parry();
+                Riposte();
+                
+                if(activateRiposteWindow)
+                {
+                    Debug.Log("Riposte Available");
+                    RiposteTimer += Time.deltaTime;
+                    if(RiposteTimer < 1.5)
+                    {
+                        canRiposte = true;
+                    }
+                    else if( RiposteTimer > 1.5)
+                    {
+                        Debug.Log("Riposte Unavailable");
+                        RiposteTimer = 0;
+                        activateRiposteWindow = false;
+                        canRiposte= false;
+                    }
+                }
         }
     }
 
@@ -118,10 +129,10 @@ public class PlayerCombat : MonoBehaviour
     {
         if (airAttackOnce && Input.GetButtonDown("Fire2") && playerStamina > 0 && !movement.isParrying && animator.GetBool("isJumping"))
         {
-            if (canReceiveInput)
+            if (canReceiveInputf2)
             {
-                InputReceived = true;
-                canReceiveInput = false;
+                InputReceivedf2 = true;
+                canReceiveInputf2 = false;
             }
             else
             {
@@ -145,6 +156,11 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
+    public void parrySound()
+    {
+        FindObjectOfType<AudioManager>().PlaySound("swish");
+    }
+
     void Riposte()
     {
         if (Input.GetKeyDown(KeyCode.E) && canRiposte)
@@ -165,7 +181,7 @@ public class PlayerCombat : MonoBehaviour
         parryCollider.enabled = true;
     }
 
-    void resetParry()
+    public void resetParry()
     {
         parryCollider.enabled = false;
         movement.isParrying = false;
@@ -231,7 +247,8 @@ public class PlayerCombat : MonoBehaviour
 
     public void takeDmg(int dmg)
     {
-        if (isInvincible) { return; }
+        if (isInvincible || animator.GetBool("deadState")) { return; }
+        this.GetComponent<Rigidbody2D>().velocity = new Vector2(0,0);
         playerHealth -= dmg;
         FindObjectOfType<AudioManager>().PlaySound("hitSound");
         animator.SetTrigger("Hurt");
@@ -258,10 +275,13 @@ public class PlayerCombat : MonoBehaviour
 
     void Die()
     {
+        FindObjectOfType<AudioManager>().PlaySound("Died");
         animator.SetBool("deadState", true);
-        Debug.Log("Player died");
         animator.SetTrigger("isDead");
-
+        this.GetComponent<PlayerCombat>().enabled = false;
+        this.GetComponent<PlayerMovement>().enabled = false;
+        this.GetComponent<CharacterController2D>().enabled = false;
+        this.GetComponent<Rigidbody2D>().velocity = new Vector2(0,0);
     }
 
     public void drinkPot()
@@ -290,11 +310,6 @@ public class PlayerCombat : MonoBehaviour
         gothurt = false;
     }
 
-    void Destroy()
-    {
-        Destroy(gameObject);
-    }
-
     public void InputManager()
     {
         if (!canReceiveInput)
@@ -305,5 +320,15 @@ public class PlayerCombat : MonoBehaviour
             canReceiveInput = false;
         }
     }
+    public void loadDeath()
+    {
+        StartCoroutine(FadetoBlack());
+    }
 
+    public IEnumerator FadetoBlack()
+    {
+        yield return new WaitForSeconds(1.5f);
+        deathScene.SetActive(true);
+
+    }
 }

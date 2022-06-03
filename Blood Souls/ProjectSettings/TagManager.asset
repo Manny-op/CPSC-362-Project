@@ -12,6 +12,7 @@ TagManager:
   - Entrance
   - InsidePortal
   - RangedEnemy
+  - PortalFog
   layers:
   - Default
   - TransparentFX
